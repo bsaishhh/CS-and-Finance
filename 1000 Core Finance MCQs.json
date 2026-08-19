@@ -1,0 +1,2522 @@
+[
+    {
+        "title": "1. Corporate Finance & Capital Budgeting",
+        "links": [
+            {
+                "text": "Time Value of Money (TVM)",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Time Value of Money (TVM)”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "What is the present value of a perpetuity paying annual cash flow C at an interest rate r?",
+                        "options": {
+                            "a": "a) C * r",
+                            "b": "b) C / r",
+                            "c": "c) C / (1 + r)",
+                            "d": "d) C * (1 + r)"
+                        },
+                        "answer": "b) C / r",
+                        "explanation": "The formula for the present value of a standard perpetuity (infinite stream of identical annual cash flows) is PV = C / r."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "If the stated annual interest rate is 12% compounded monthly, what is the Effective Annual Rate (EAR)?",
+                        "options": {
+                            "a": "a) 12.00%",
+                            "b": "b) 12.36%",
+                            "c": "c) 12.68%",
+                            "d": "d) 13.10%"
+                        },
+                        "answer": "c) 12.68%",
+                        "explanation": "EAR = (1 + r/m)^m - 1 = (1 + 0.12/12)^12 - 1 = (1.01)^12 - 1 = 1.126825 - 1 = 12.68%."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "What is the formula for the present value of a growing perpetuity with initial cash flow C1, discount rate r, and constant growth rate g (where r > g)?",
+                        "options": {
+                            "a": "a) C1 / (r - g)",
+                            "b": "b) C1 / (r + g)",
+                            "c": "c) C1 * (r - g)",
+                            "d": "d) C1 / (g - r)"
+                        },
+                        "answer": "a) C1 / (r - g)",
+                        "explanation": "The Gordon Growth / Growing Perpetuity formula states that PV = C1 / (r - g), provided the discount rate r is strictly greater than the growth rate g."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "An annuity due differs from an ordinary annuity because cash flows in an annuity due occur at:",
+                        "options": {
+                            "a": "a) The end of each period",
+                            "b": "b) The beginning of each period",
+                            "c": "c) The midpoint of each period",
+                            "d": "d) Irregular intervals"
+                        },
+                        "answer": "b) The beginning of each period",
+                        "explanation": "In an ordinary annuity, payments are made at the end of each period. In an annuity due, payments are made at the beginning of each period, making its present value equal to PV(ordinary) * (1 + r)."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "What happens to the present value of a single future cash flow as the discount rate increases?",
+                        "options": {
+                            "a": "a) Increases",
+                            "b": "b) Decreases",
+                            "c": "c) Remains unchanged",
+                            "d": "d) Becomes negative"
+                        },
+                        "answer": "b) Decreases",
+                        "explanation": "Because PV = FV / (1 + r)^n, an increase in the discount rate r increases the denominator, thereby reducing the present value."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "The Rule of 72 is an approximation used to estimate:",
+                        "options": {
+                            "a": "a) The time required to double an investment at a given interest rate",
+                            "b": "b) The optimal debt-to-equity ratio",
+                            "c": "c) The tax shield on debt",
+                            "d": "d) The duration of a zero-coupon bond"
+                        },
+                        "answer": "a) The time required to double an investment at a given interest rate",
+                        "explanation": "The Rule of 72 states that Years to Double ≈ 72 / Interest Rate (in %). For example, at 8% interest, money doubles in approximately 72 / 8 = 9 years."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "What is the future value of $1,000 invested for 3 years at a 10% annual compound interest rate?",
+                        "options": {
+                            "a": "a) $1,300",
+                            "b": "b) $1,331",
+                            "c": "c) $1,342",
+                            "d": "d) $1,400"
+                        },
+                        "answer": "b) $1,331",
+                        "explanation": "FV = PV * (1 + r)^n = 1000 * (1 + 0.10)^3 = 1000 * 1.331 = $1,331."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Continuous compounding uses which mathematical constant to compute future value?",
+                        "options": {
+                            "a": "a) π (Pi)",
+                            "b": "b) e (Euler's number ≈ 2.71828)",
+                            "c": "c) φ (Golden ratio)",
+                            "d": "d) γ (Euler-Mascheroni constant)"
+                        },
+                        "answer": "b) e (Euler's number ≈ 2.71828)",
+                        "explanation": "Under continuous compounding, the future value formula is FV = PV * e^(r * t), where e is Euler's number (base of the natural logarithm)."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "Which of the following discount factors is used to find the present value of $1 received n periods in the future at rate r?",
+                        "options": {
+                            "a": "a) (1 + r)^n",
+                            "b": "b) 1 / (1 + r)^n",
+                            "c": "c) (1 + r) / n",
+                            "d": "d) n / (1 + r)"
+                        },
+                        "answer": "b) 1 / (1 + r)^n",
+                        "explanation": "The single-period discount factor is (1 + r)^(-n) or 1 / (1 + r)^n, which multiplies future cash flow to yield present value."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "When comparing two investment projects with the same total nominal cash inflows, the project with cash flows received earlier will have:",
+                        "options": {
+                            "a": "a) A lower Present Value",
+                            "b": "b) A higher Present Value",
+                            "c": "c) The same Present Value",
+                            "d": "d) Zero Present Value"
+                        },
+                        "answer": "b) A higher Present Value",
+                        "explanation": "Due to the time value of money, cash received earlier is discounted over fewer periods and is worth more today than cash received later."
+                    }
+                ]
+            },
+            {
+                "text": "Capital Budgeting Techniques",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Capital Budgeting Techniques”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "Which capital budgeting method is universally considered theoretically superior for shareholder wealth maximization?",
+                        "options": {
+                            "a": "a) Payback Period",
+                            "b": "b) Accounting Rate of Return (ARR)",
+                            "c": "c) Net Present Value (NPV)",
+                            "d": "d) Internal Rate of Return (IRR)"
+                        },
+                        "answer": "c) Net Present Value (NPV)",
+                        "explanation": "NPV directly measures the dollar value added to shareholder wealth and assumes reinvestment of intermediate cash flows at the cost of capital (hurdle rate)."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "The Internal Rate of Return (IRR) is the discount rate at which the Net Present Value (NPV) of a project is equal to:",
+                        "options": {
+                            "a": "a) Initial investment",
+                            "b": "b) Zero",
+                            "c": "c) 1.0",
+                            "d": "d) Infinity"
+                        },
+                        "answer": "b) Zero",
+                        "explanation": "By definition, IRR is the discount rate that equates the present value of future cash inflows to the initial cash outlay (i.e., NPV = 0)."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "A major disadvantage of the standard Internal Rate of Return (IRR) method is the assumption that intermediate cash flows are reinvested at:",
+                        "options": {
+                            "a": "a) The cost of capital (WACC)",
+                            "b": "b) The risk-free rate",
+                            "c": "c) The project's own IRR",
+                            "d": "d) Zero percent"
+                        },
+                        "answer": "c) The project's own IRR",
+                        "explanation": "IRR assumes intermediate cash flows are reinvested at the project's IRR, which is often unrealistically high. MIRR resolves this by assuming reinvestment at the cost of capital."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "When evaluating mutually exclusive projects with different scales, a conflict between NPV and IRR should be resolved by choosing the project with:",
+                        "options": {
+                            "a": "a) The higher IRR",
+                            "b": "b) The higher NPV",
+                            "c": "c) The shorter payback period",
+                            "d": "d) The higher Profitability Index"
+                        },
+                        "answer": "b) The higher NPV",
+                        "explanation": "For mutually exclusive projects, NPV is the definitive criterion because it maximizes total shareholder value in absolute monetary terms."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "The Profitability Index (PI) of an investment is calculated as:",
+                        "options": {
+                            "a": "a) PV of Future Cash Inflows / Initial Outlay",
+                            "b": "b) Net Profit / Average Investment",
+                            "c": "c) Initial Outlay / Annual Cash Inflow",
+                            "d": "d) NPV / Total Revenues"
+                        },
+                        "answer": "a) PV of Future Cash Inflows / Initial Outlay",
+                        "explanation": "Profitability Index (PI) = PV of Future Cash Inflows / Initial Investment. A project is acceptable if PI > 1.0."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "The primary drawback of the standard Payback Period method is that it:",
+                        "options": {
+                            "a": "a) Ignores cash flows occurring after the payback cutoff date and time value of money",
+                            "b": "b) Is too complex to calculate",
+                            "c": "c) Requires estimation of the cost of capital",
+                            "d": "d) Always contradicts NPV"
+                        },
+                        "answer": "a) Ignores cash flows occurring after the payback cutoff date and time value of money",
+                        "explanation": "Standard payback period fails to account for the time value of money and completely neglects cash flows generated after the initial investment has been recovered."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "Under what condition can a project have multiple Internal Rates of Return (multiple IRRs)?",
+                        "options": {
+                            "a": "a) When all cash flows are positive",
+                            "b": "b) When the cash flow stream is non-conventional (signs change more than once)",
+                            "c": "c) When the discount rate exceeds 20%",
+                            "d": "d) When NPV is equal to zero"
+                        },
+                        "answer": "b) When the cash flow stream is non-conventional (signs change more than once)",
+                        "explanation": "According to Descartes' Rule of Signs, a polynomial has as many real roots as sign changes in its coefficients. Non-conventional cash flows (e.g. -, +, -, +) can produce multiple IRRs."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "The Modified Internal Rate of Return (MIRR) assumes financing costs are discounted at the financing rate and intermediate cash inflows are reinvested at the:",
+                        "options": {
+                            "a": "a) Cost of capital (hurdle rate)",
+                            "b": "b) Project IRR",
+                            "c": "c) Prime lending rate",
+                            "d": "d) Inflation rate"
+                        },
+                        "answer": "a) Cost of capital (hurdle rate)",
+                        "explanation": "MIRR calculates rate of return by compounding cash inflows to the terminal year at the firm's cost of capital (WACC), providing a more realistic return metric than IRR."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "Sunk costs should be treated in capital budgeting cash flow analysis as:",
+                        "options": {
+                            "a": "a) Incremental cash outflows",
+                            "b": "b) Added to the initial investment outlay",
+                            "c": "c) Completely excluded from the decision analysis",
+                            "d": "d) Amortized over project life"
+                        },
+                        "answer": "c) Completely excluded from the decision analysis",
+                        "explanation": "Sunk costs are past, irreversible expenses that will not change regardless of whether the project is accepted or rejected. Therefore, they are irrelevant to incremental decision-making."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "Opportunity costs in capital budgeting refer to:",
+                        "options": {
+                            "a": "a) Interest paid on debt financing",
+                            "b": "b) The cash flows that could be generated from the next best alternative use of an asset",
+                            "c": "c) Overhead administrative expenses",
+                            "d": "d) Future tax liabilities"
+                        },
+                        "answer": "b) The cash flows that could be generated from the next best alternative use of an asset",
+                        "explanation": "Opportunity cost is the foregone benefit from not utilizing an existing asset in its alternative best use, and must be included as an incremental cash outflow."
+                    }
+                ]
+            },
+            {
+                "text": "Cost of Capital & WACC",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Cost of Capital and WACC”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "What is the formula for the Weighted Average Cost of Capital (WACC) with debt (D), equity (E), corporate tax rate (T), cost of debt (Kd), and cost of equity (Ke)?",
+                        "options": {
+                            "a": "a) WACC = (E/V)*Ke + (D/V)*Kd*(1 - T)",
+                            "b": "b) WACC = (E/V)*Ke*(1 - T) + (D/V)*Kd",
+                            "c": "c) WACC = (E/D)*Ke + (D/E)*Kd*(1 - T)",
+                            "d": "d) WACC = Ke + Kd*(1 - T)"
+                        },
+                        "answer": "a) WACC = (E/V)*Ke + (D/V)*Kd*(1 - T)",
+                        "explanation": "WACC weights the cost of each capital component by its market value proportion. Because interest payments are tax-deductible, the after-tax cost of debt is Kd*(1 - T)."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "According to the Capital Asset Pricing Model (CAPM), the cost of equity (Ke) is calculated as:",
+                        "options": {
+                            "a": "a) Ke = Rf + Beta * (Rm - Rf)",
+                            "b": "b) Ke = Rf + Beta * Rm",
+                            "c": "c) Ke = (D1 / P0) + g",
+                            "d": "d) Ke = Rf / Beta"
+                        },
+                        "answer": "a) Ke = Rf + Beta * (Rm - Rf)",
+                        "explanation": "Under CAPM, Ke = Risk-free rate (Rf) + Beta * Market Risk Premium (Rm - Rf)."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "Why is the after-tax cost of debt lower than the pre-tax cost of debt for a profitable tax-paying corporation?",
+                        "options": {
+                            "a": "a) Debt holders demand lower returns than equity holders",
+                            "b": "b) Interest expenses are tax-deductible, creating an interest tax shield",
+                            "c": "c) Debt is riskier than equity",
+                            "d": "d) Principal repayments are tax-deductible"
+                        },
+                        "answer": "b) Interest expenses are tax-deductible, creating an interest tax shield",
+                        "explanation": "Interest expense reduces taxable income, effectively saving the company taxes equal to Interest * Tax Rate. Thus, after-tax Kd = Kd * (1 - T)."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "When calculating the weights of debt and equity in WACC, analysts should prioritize:",
+                        "options": {
+                            "a": "a) Book values from historical balance sheets",
+                            "b": "b) Current market values of debt and equity",
+                            "c": "c) Nominal face values",
+                            "d": "d) Total assets value"
+                        },
+                        "answer": "b) Current market values of debt and equity",
+                        "explanation": "Market values represent the true current economic claims on the firm and the ongoing opportunity cost of capital raised in financial markets."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "Using the Dividend Discount Model (Gordon Growth), what is the cost of equity for a stock priced at $50, paying a dividend D1 of $2.50 next year, with constant growth g = 5%?",
+                        "options": {
+                            "a": "a) 5.0%",
+                            "b": "b) 7.5%",
+                            "c": "c) 10.0%",
+                            "d": "d) 12.5%"
+                        },
+                        "answer": "c) 10.0%",
+                        "explanation": "Ke = (D1 / P0) + g = ($2.50 / $50.00) + 0.05 = 0.05 + 0.05 = 0.10 or 10.0%."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "The cost of preferred stock (Kp) paying fixed dividend Dp at market price Pp with no flotation cost is calculated as:",
+                        "options": {
+                            "a": "a) Kp = Dp / Pp",
+                            "b": "b) Kp = Dp / [Pp * (1 - T)]",
+                            "c": "c) Kp = [Dp * (1 - T)] / Pp",
+                            "d": "d) Kp = (Dp / Pp) + g"
+                        },
+                        "answer": "a) Kp = Dp / Pp",
+                        "explanation": "Because preferred dividends are paid out of after-tax profits (not tax-deductible), there is no tax adjustment: Kp = Preferred Dividend (Dp) / Market Price (Pp)."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "What is the hurdle rate in project evaluation?",
+                        "options": {
+                            "a": "a) The maximum rate of return a project can achieve",
+                            "b": "b) The minimum acceptable rate of return an investment must earn to cover its cost of capital",
+                            "c": "c) The statutory corporate income tax rate",
+                            "d": "d) The yield on 10-year government bonds"
+                        },
+                        "answer": "b) The minimum acceptable rate of return an investment must earn to cover its cost of capital",
+                        "explanation": "The hurdle rate is the minimum required rate of return that an investment project must exceed for management to approve it."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "If a company uses its overall firm WACC to evaluate a high-risk project in a new business line, it will likely:",
+                        "options": {
+                            "a": "a) Correctly evaluate the project risk",
+                            "b": "b) Incorrectly accept an overly risky, value-destroying project",
+                            "c": "c) Incorrectly reject a profitable project",
+                            "d": "d) Underestimate project cash flows"
+                        },
+                        "answer": "b) Incorrectly accept an overly risky, value-destroying project",
+                        "explanation": "Using an average WACC for a high-risk project applies an artificially low discount rate, overestimating the project's NPV and potentially accepting value-destroying risk."
+                    }
+                ]
+            },
+            {
+                "text": "Capital Structure & Leverage",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Capital Structure and Leverage”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "Modigliani-Miller Proposition I (without taxes) states that:",
+                        "options": {
+                            "a": "a) The value of a firm increases as debt increases",
+                            "b": "b) The value of a levered firm is identical to the value of an unlevered firm",
+                            "c": "c) WACC decreases linearly with debt",
+                            "d": "d) Financial leverage has no impact on equity beta"
+                        },
+                        "answer": "b) The value of a levered firm is identical to the value of an unlevered firm",
+                        "explanation": "In a perfect market without taxes, bankruptcy costs, or asymmetric information, capital structure is irrelevant: Value(Levered) = Value(Unlevered)."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "Under Modigliani-Miller Proposition I with corporate taxes, the value of a levered firm (VL) equals:",
+                        "options": {
+                            "a": "a) VL = VU - Debt",
+                            "b": "b) VL = VU + (Tax Rate * Debt)",
+                            "c": "c) VL = VU / (1 - Tax Rate)",
+                            "d": "d) VL = VU * (1 + Debt/Equity)"
+                        },
+                        "answer": "b) VL = VU + (Tax Rate * Debt)",
+                        "explanation": "With corporate taxes, interest deductibility creates a perpetual tax shield worth Present Value = Tax Rate (T) * Debt (D). Therefore, VL = VU + T*D."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "The Trade-Off Theory of capital structure states that optimal leverage is achieved when:",
+                        "options": {
+                            "a": "a) Debt is 100% of capital",
+                            "b": "b) The marginal tax shield benefits of debt equal the marginal expected costs of financial distress",
+                            "c": "c) Retained earnings are exhausted",
+                            "d": "d) Cost of equity equals cost of debt"
+                        },
+                        "answer": "b) The marginal tax shield benefits of debt equal the marginal expected costs of financial distress",
+                        "explanation": "The Trade-Off Theory balances the tax advantage of debt against the increasing expected bankruptcy/distress costs as leverage rises."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "According to the Pecking Order Theory proposed by Myers and Majluf, firms prefer to finance new projects using capital in which order?",
+                        "options": {
+                            "a": "a) New Equity → Debt → Internal Cash Flows",
+                            "b": "b) Internal Cash Flows → Debt → New Equity",
+                            "c": "c) Debt → New Equity → Internal Cash Flows",
+                            "d": "d) Hybrid Securities → Debt → Equity"
+                        },
+                        "answer": "b) Internal Cash Flows → Debt → New Equity",
+                        "explanation": "Due to asymmetric information and signaling costs, firms prefer internal funds (retained earnings) first, followed by safe debt, and new equity only as a last resort."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "Degree of Operating Leverage (DOL) measures the sensitivity of:",
+                        "options": {
+                            "a": "a) Net Income to changes in EBIT",
+                            "b": "b) Operating Income (EBIT) to changes in Sales Revenue",
+                            "c": "c) Earnings Per Share (EPS) to changes in Operating Income",
+                            "d": "d) Stock Price to changes in Beta"
+                        },
+                        "answer": "b) Operating Income (EBIT) to changes in Sales Revenue",
+                        "explanation": "DOL = % Change in EBIT / % Change in Sales = Contribution Margin / EBIT. It reflects the proportion of fixed operating costs in a firm's cost structure."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "Degree of Financial Leverage (DFL) at a given base EBIT is calculated as:",
+                        "options": {
+                            "a": "a) EBIT / (EBIT - Interest)",
+                            "b": "b) (EBIT - Interest) / EBIT",
+                            "c": "c) Sales / EBIT",
+                            "d": "d) Net Income / Total Assets"
+                        },
+                        "answer": "a) EBIT / (EBIT - Interest)",
+                        "explanation": "DFL = % Change in EPS / % Change in EBIT = EBIT / (EBIT - Interest Expense). It measures the financial risk created by fixed debt obligations."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "Degree of Total Leverage (DTL) is equal to:",
+                        "options": {
+                            "a": "a) DOL + DFL",
+                            "b": "b) DOL * DFL",
+                            "c": "c) DOL / DFL",
+                            "d": "d) (DOL - DFL) * Tax Rate"
+                        },
+                        "answer": "b) DOL * DFL",
+                        "explanation": "Degree of Total Leverage (DTL) is the product of operating leverage and financial leverage: DTL = DOL * DFL = % Change in EPS / % Change in Sales."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "The EBIT-EPS indifference point between two financing plans represents the level of EBIT at which:",
+                        "options": {
+                            "a": "a) EBIT equals zero",
+                            "b": "b) EPS is identical under both financing alternatives",
+                            "c": "c) WACC is maximized",
+                            "d": "d) Financial risk is eliminated"
+                        },
+                        "answer": "b) EPS is identical under both financing alternatives",
+                        "explanation": "The EBIT-EPS crossover/indifference point is the operational earning level where Earnings Per Share (EPS) is equal under debt vs equity financing options."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "Agency costs of debt arise primarily due to conflicts of interest between:",
+                        "options": {
+                            "a": "a) Shareholders and Bondholders",
+                            "b": "b) Managers and Government regulators",
+                            "c": "c) Suppliers and Customers",
+                            "d": "d) Auditors and Board of Directors"
+                        },
+                        "answer": "a) Shareholders and Bondholders",
+                        "explanation": "Agency conflicts between equity holders and debt holders include asset substitution (risk shifting), debt overhang (underinvestment), and dividend payout cannibalization."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "Hamada's equation is used to calculate:",
+                        "options": {
+                            "a": "a) Levered beta from unlevered (asset) beta and capital structure",
+                            "b": "b) The optimal dividend payout ratio",
+                            "c": "c) The coupon rate on convertible bonds",
+                            "d": "d) The probability of default"
+                        },
+                        "answer": "a) Levered beta from unlevered (asset) beta and capital structure",
+                        "explanation": "Hamada's formula states: Beta_L = Beta_U * [1 + (1 - T) * (Debt / Equity)], connecting business risk (Beta_U) with financial leverage risk."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2. Financial Accounting & Statement Analysis",
+        "links": [
+            {
+                "text": "Financial Statements Overview",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Financial Statements Overview”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "Which financial statement provides a snapshot of a company's financial position at a specific point in time?",
+                        "options": {
+                            "a": "a) Income Statement",
+                            "b": "b) Balance Sheet",
+                            "c": "c) Cash Flow Statement",
+                            "d": "d) Statement of Retained Earnings"
+                        },
+                        "answer": "b) Balance Sheet",
+                        "explanation": "The Balance Sheet reports assets, liabilities, and shareholders' equity at a specific static date, unlike the Income Statement and Cash Flow Statement which cover a period of time."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "What is the fundamental accounting equation?",
+                        "options": {
+                            "a": "a) Assets = Liabilities - Equity",
+                            "b": "b) Assets = Liabilities + Shareholders' Equity",
+                            "c": "c) Equity = Assets + Liabilities",
+                            "d": "d) Net Income = Revenue + Expenses"
+                        },
+                        "answer": "b) Assets = Liabilities + Shareholders' Equity",
+                        "explanation": "The fundamental accounting equation states that a firm's total economic resources (Assets) must equal the claims of creditors (Liabilities) plus claims of owners (Shareholders' Equity)."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "In the Cash Flow Statement under indirect method, how is an increase in Accounts Receivable treated when calculating Cash Flow from Operating Activities (CFO)?",
+                        "options": {
+                            "a": "a) Added to Net Income",
+                            "b": "b) Subtracted from Net Income",
+                            "c": "c) Recorded under Cash Flow from Investing",
+                            "d": "d) Recorded under Cash Flow from Financing"
+                        },
+                        "answer": "b) Subtracted from Net Income",
+                        "explanation": "An increase in Accounts Receivable indicates revenue recognized on the Income Statement for which cash has not yet been collected; therefore, it is subtracted from Net Income."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "Which of the following is classified under Cash Flow from Financing Activities (CFF)?",
+                        "options": {
+                            "a": "a) Purchase of property, plant, and equipment (PP&E)",
+                            "b": "b) Dividend payments to equity shareholders",
+                            "c": "c) Depreciation of fixed assets",
+                            "d": "d) Collection of customer receivables"
+                        },
+                        "answer": "b) Dividend payments to equity shareholders",
+                        "explanation": "Cash paid as dividends to shareholders is a cash outflow classified under Cash Flow from Financing Activities (CFF)."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "EBITDA is calculated as Operating Income (EBIT) plus:",
+                        "options": {
+                            "a": "a) Interest and Taxes",
+                            "b": "b) Depreciation and Amortization",
+                            "c": "c) Capital Expenditures and Dividends",
+                            "d": "d) Working Capital changes"
+                        },
+                        "answer": "b) Depreciation and Amortization",
+                        "explanation": "EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization. It is calculated by adding Depreciation and Amortization back to EBIT."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "Non-cash expenses such as depreciation affect cash flows primarily because they:",
+                        "options": {
+                            "a": "a) Directly reduce cash balance",
+                            "b": "b) Reduce taxable income, generating a depreciation tax shield",
+                            "c": "c) Increase current liabilities",
+                            "d": "d) Increase retained earnings"
+                        },
+                        "answer": "b) Reduce taxable income, generating a depreciation tax shield",
+                        "explanation": "Depreciation requires no cash outlay but reduces taxable income, saving cash taxes equal to Depreciation * Tax Rate (the depreciation tax shield)."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "Treasury Stock is reported on the Balance Sheet as a:",
+                        "options": {
+                            "a": "a) Current Asset",
+                            "b": "b) Non-Current Asset",
+                            "c": "c) Contra-Equity account (deduction from Shareholders' Equity)",
+                            "d": "d) Long-term Liability"
+                        },
+                        "answer": "c) Contra-Equity account (deduction from Shareholders' Equity)",
+                        "explanation": "Treasury Stock represents shares repurchased by the company and is recorded as a negative (contra) balance in Shareholders' Equity."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "How does an impairment of goodwill affect the three financial statements?",
+                        "options": {
+                            "a": "a) Reduces Net Income and reduces Goodwill (Assets), with no direct cash flow impact except adding back non-cash loss in CFO",
+                            "b": "b) Increases cash from financing",
+                            "c": "c) Increases liabilities",
+                            "d": "d) Only affects the balance sheet"
+                        },
+                        "answer": "a) Reduces Net Income and reduces Goodwill (Assets), with no direct cash flow impact except adding back non-cash loss in CFO",
+                        "explanation": "Goodwill impairment is recognized as an operating expense on the Income Statement, written down on the Balance Sheet, and added back to Net Income in CFO as a non-cash expense."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "Under IFRS and US GAAP, how is the payment of interest expense generally classified in the Statement of Cash Flows under US GAAP?",
+                        "options": {
+                            "a": "a) Operating Activity",
+                            "b": "b) Financing Activity",
+                            "c": "c) Investing Activity",
+                            "d": "d) Non-cash transaction"
+                        },
+                        "answer": "a) Operating Activity",
+                        "explanation": "Under US GAAP, interest paid must be classified as an Operating Activity. Under IFRS, it can be classified as either operating or financing."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "What is the relationship between Net Income, Dividends, and Retained Earnings?",
+                        "options": {
+                            "a": "a) Ending Retained Earnings = Beginning Retained Earnings + Net Income - Dividends",
+                            "b": "b) Ending Retained Earnings = Beginning Retained Earnings - Net Income + Dividends",
+                            "c": "c) Ending Retained Earnings = Net Income + Dividends",
+                            "d": "d) Ending Retained Earnings = Total Assets - Total Liabilities"
+                        },
+                        "answer": "a) Ending Retained Earnings = Beginning Retained Earnings + Net Income - Dividends",
+                        "explanation": "Retained earnings accumulate profits: Ending RE = Beginning RE + Net Income earned during period - Dividends declared/distributed to shareholders."
+                    }
+                ]
+            },
+            {
+                "text": "Financial Ratio Analysis & DuPont Model",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Financial Ratio Analysis and DuPont Model”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "The Quick Ratio (Acid-Test Ratio) differs from the Current Ratio by excluding which asset from Current Assets?",
+                        "options": {
+                            "a": "a) Accounts Receivable",
+                            "b": "b) Inventory",
+                            "c": "c) Cash and Cash Equivalents",
+                            "d": "d) Marketable Securities"
+                        },
+                        "answer": "b) Inventory",
+                        "explanation": "Quick Ratio = (Cash + Marketable Securities + Accounts Receivable) / Current Liabilities = (Current Assets - Inventory - Prepaid Expenses) / Current Liabilities, because inventory is the least liquid current asset."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "In the standard 3-step DuPont Analysis, Return on Equity (ROE) is decomposed into:",
+                        "options": {
+                            "a": "a) Net Profit Margin * Asset Turnover * Equity Multiplier",
+                            "b": "b) Gross Margin * Debt Ratio * ROA",
+                            "c": "c) Operating Margin * Interest Burden * Tax Burden",
+                            "d": "d) Current Ratio * Quick Ratio * Cash Ratio"
+                        },
+                        "answer": "a) Net Profit Margin * Asset Turnover * Equity Multiplier",
+                        "explanation": "ROE = (Net Income / Sales) * (Sales / Assets) * (Assets / Equity) = Profitability * Efficiency * Financial Leverage."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "If a company has an Equity Multiplier of 2.5, what is its Debt-to-Equity (D/E) ratio?",
+                        "options": {
+                            "a": "a) 0.5",
+                            "b": "b) 1.5",
+                            "c": "c) 2.5",
+                            "d": "d) 3.5"
+                        },
+                        "answer": "b) 1.5",
+                        "explanation": "Equity Multiplier = Assets / Equity = (Debt + Equity) / Equity = (Debt/Equity) + 1. Therefore, Debt/Equity = 2.5 - 1 = 1.5."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "The Interest Coverage Ratio (Times Interest Earned) is calculated as:",
+                        "options": {
+                            "a": "a) EBIT / Interest Expense",
+                            "b": "b) Net Income / Interest Expense",
+                            "c": "c) Operating Cash Flow / Total Debt",
+                            "d": "d) EBITDA / Principal Repayment"
+                        },
+                        "answer": "a) EBIT / Interest Expense",
+                        "explanation": "Interest Coverage Ratio = EBIT / Interest Expense. It measures the company's ability to service its debt obligations from operational earnings."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "Days Sales Outstanding (DSO) measures:",
+                        "options": {
+                            "a": "a) The average number of days required to collect cash from credit sales",
+                            "b": "b) The average number of days inventory sits on shelves",
+                            "c": "c) The average time taken to pay suppliers",
+                            "d": "d) The total operating cycle length"
+                        },
+                        "answer": "a) The average number of days required to collect cash from credit sales",
+                        "explanation": "DSO = (Accounts Receivable / Total Credit Sales) * 365. It evaluates the efficiency of the firm's credit and collection policy."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "An increase in Inventory Turnover Ratio generally indicates:",
+                        "options": {
+                            "a": "a) Slower product sales and inventory buildup",
+                            "b": "b) Improved operational efficiency in selling inventory faster",
+                            "c": "c) Higher risk of obsolete inventory",
+                            "d": "d) Increased working capital requirements"
+                        },
+                        "answer": "b) Improved operational efficiency in selling inventory faster",
+                        "explanation": "Inventory Turnover = COGS / Average Inventory. A higher ratio indicates inventory is being converted into sales more rapidly."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "Return on Assets (ROA) is calculated as:",
+                        "options": {
+                            "a": "a) Net Income / Total Shareholders' Equity",
+                            "b": "b) Net Income / Average Total Assets",
+                            "c": "c) EBIT / Current Assets",
+                            "d": "d) Gross Profit / Fixed Assets"
+                        },
+                        "answer": "b) Net Income / Average Total Assets",
+                        "explanation": "ROA = Net Income / Total Assets. It measures how effectively the firm generates profit from its total asset base."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "In a 5-step DuPont Analysis, which term measures the tax burden?",
+                        "options": {
+                            "a": "a) Net Income / EBT",
+                            "b": "b) EBT / EBIT",
+                            "c": "c) EBIT / Sales",
+                            "d": "d) Sales / Total Assets"
+                        },
+                        "answer": "a) Net Income / EBT",
+                        "explanation": "The 5 components are: Tax Burden (NI/EBT) * Interest Burden (EBT/EBIT) * Operating Margin (EBIT/Sales) * Asset Turnover (Sales/Assets) * Leverage (Assets/Equity)."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "What does a high Price-to-Earnings (P/E) ratio typically imply about investor expectations?",
+                        "options": {
+                            "a": "a) Investors expect high future earnings growth",
+                            "b": "b) The company is experiencing severe financial distress",
+                            "c": "c) The company has low profit margins",
+                            "d": "d) The stock is heavily undervalued"
+                        },
+                        "answer": "a) Investors expect high future earnings growth",
+                        "explanation": "A high P/E ratio indicates that the market is willing to pay a premium per dollar of current earnings due to anticipated strong growth in future earnings."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "The Debt-to-Capital ratio is defined as:",
+                        "options": {
+                            "a": "a) Total Debt / (Total Debt + Shareholders' Equity)",
+                            "b": "b) Total Debt / Shareholders' Equity",
+                            "c": "c) Total Liabilities / Total Assets",
+                            "d": "d) Long-term Debt / Current Liabilities"
+                        },
+                        "answer": "a) Total Debt / (Total Debt + Shareholders' Equity)",
+                        "explanation": "Debt-to-Capital = Total Debt / Total Capital = Debt / (Debt + Equity). It evaluates the proportion of permanent capital provided by debt."
+                    },
+                    {
+                        "question_no": 11,
+                        "question": "Gross Profit Margin is calculated as:",
+                        "options": {
+                            "a": "a) (Revenue - COGS) / Revenue",
+                            "b": "b) Operating Income / Revenue",
+                            "c": "c) Net Income / Revenue",
+                            "d": "d) Gross Profit / Total Assets"
+                        },
+                        "answer": "a) (Revenue - COGS) / Revenue",
+                        "explanation": "Gross Profit Margin = (Sales Revenue - Cost of Goods Sold) / Sales Revenue. It measures profitability after direct production costs."
+                    },
+                    {
+                        "question_no": 12,
+                        "question": "If Company A and Company B have identical ROA, but Company A has a higher ROE, this is caused by Company A having:",
+                        "options": {
+                            "a": "a) Higher financial leverage (Debt/Equity)",
+                            "b": "b) Lower tax rate",
+                            "c": "c) Higher asset turnover",
+                            "d": "d) Lower interest expenses"
+                        },
+                        "answer": "a) Higher financial leverage (Debt/Equity)",
+                        "explanation": "Since ROE = ROA * Equity Multiplier, higher leverage (higher Equity Multiplier) magnifies ROE for a given level of ROA."
+                    }
+                ]
+            },
+            {
+                "text": "Working Capital Management",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Working Capital Management”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "What is the formula for Net Working Capital (NWC)?",
+                        "options": {
+                            "a": "a) Total Assets - Total Liabilities",
+                            "b": "b) Current Assets - Current Liabilities",
+                            "c": "c) Cash + Accounts Receivable",
+                            "d": "d) Total Debt - Cash"
+                        },
+                        "answer": "b) Current Assets - Current Liabilities",
+                        "explanation": "Net Working Capital (NWC) is defined as Current Assets minus Current Liabilities, representing short-term liquidity available for operations."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "What is the formula for the Cash Conversion Cycle (CCC)?",
+                        "options": {
+                            "a": "a) Days Inventory Outstanding (DIO) + Days Sales Outstanding (DSO) - Days Payable Outstanding (DPO)",
+                            "b": "b) DIO + DSO + DPO",
+                            "c": "c) DSO - DIO - DPO",
+                            "d": "d) Operating Cycle + DPO"
+                        },
+                        "answer": "a) Days Inventory Outstanding (DIO) + Days Sales Outstanding (DSO) - Days Payable Outstanding (DPO)",
+                        "explanation": "CCC = DIO + DSO - DPO = Operating Cycle - DPO. It measures the time elapsed from cash spent on inventory to cash received from customers."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "A negative Cash Conversion Cycle means that:",
+                        "options": {
+                            "a": "a) The company is bankrupt",
+                            "b": "b) The company collects cash from customers before it has to pay its suppliers",
+                            "c": "c) The company has negative working capital",
+                            "d": "d) The company does not hold any inventory"
+                        },
+                        "answer": "b) The company collects cash from customers before it has to pay its suppliers",
+                        "explanation": "Companies with negative CCC (e.g., Amazon, Dell) receive cash from customer sales before supplier payments are due, effectively using supplier financing to fund growth."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "The Operating Cycle is equal to:",
+                        "options": {
+                            "a": "a) Days Inventory Outstanding (DIO) + Days Sales Outstanding (DSO)",
+                            "b": "b) DIO - DPO",
+                            "c": "c) DSO + DPO",
+                            "d": "d) CCC - DPO"
+                        },
+                        "answer": "a) Days Inventory Outstanding (DIO) + Days Sales Outstanding (DSO)",
+                        "explanation": "The Operating Cycle represents the total time required to acquire inventory, sell it, and collect receivables: Operating Cycle = DIO + DSO."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "In the Baumol-Allais-Tobin (BAT) cash management model, the optimal cash balance increases with an increase in:",
+                        "options": {
+                            "a": "a) Interest rate (opportunity cost)",
+                            "b": "b) Transaction cost of selling securities and total cash needed",
+                            "c": "c) Tax rate",
+                            "d": "d) Accounts payable"
+                        },
+                        "answer": "b) Transaction cost of selling securities and total cash needed",
+                        "explanation": "Optimal cash transfer C* = sqrt[(2 * Total Cash Needed * Transaction Cost) / Opportunity Cost of Holding Cash]."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "Under the Miller-Orr cash management model, what happens when the firm's cash balance hits the upper limit (H)?",
+                        "options": {
+                            "a": "a) The firm borrows additional funds",
+                            "b": "b) The firm purchases marketable securities to return the cash balance to the target return point (Z)",
+                            "c": "c) The firm declares bankruptcy",
+                            "d": "d) The firm pays an extraordinary dividend"
+                        },
+                        "answer": "b) The firm purchases marketable securities to return the cash balance to the target return point (Z)",
+                        "explanation": "When cash rises to the upper limit H, the firm invests an amount equal to (H - Z) in marketable securities to reset cash to target Z."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "Factoring of accounts receivable refers to:",
+                        "options": {
+                            "a": "a) Selling accounts receivable to a third party (factor) at a discount for immediate cash",
+                            "b": "b) Extending longer credit terms to customers",
+                            "c": "c) Pledging inventory as loan collateral",
+                            "d": "d) Writing off bad debts"
+                        },
+                        "answer": "a) Selling accounts receivable to a third party (factor) at a discount for immediate cash",
+                        "explanation": "Factoring is a financial transaction in which a business sells its accounts receivable to a financial entity (factor) at a discount to accelerate cash flow."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "An aggressive working capital policy typically involves:",
+                        "options": {
+                            "a": "a) Financing permanent current assets with short-term debt",
+                            "b": "b) Maintaining large cash reserves and high inventory levels",
+                            "c": "c) Financing all assets with long-term equity",
+                            "d": "d) Extending 120-day credit terms to customers"
+                        },
+                        "answer": "a) Financing permanent current assets with short-term debt",
+                        "explanation": "An aggressive policy uses cheaper short-term financing for long-term and permanent current assets, boosting profitability but increasing refinancing and interest rate risk."
+                    }
+                ]
+            },
+            {
+                "text": "Accounting Standards & Inventory Valuation",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Accounting Standards and Inventory Valuation”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "In an inflationary environment with rising prices, which inventory accounting method results in the lowest reported Cost of Goods Sold (COGS) and highest Net Income?",
+                        "options": {
+                            "a": "a) LIFO (Last-In, First-Out)",
+                            "b": "b) FIFO (First-In, First-Out)",
+                            "c": "c) Weighted Average Cost",
+                            "d": "d) Specific Identification"
+                        },
+                        "answer": "b) FIFO (First-In, First-Out)",
+                        "explanation": "Under FIFO, older and cheaper units are assigned to COGS, leaving newer and more expensive inventory on the Balance Sheet, which minimizes COGS and maximizes Net Income."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "Under International Financial Reporting Standards (IFRS), which inventory valuation method is strictly prohibited?",
+                        "options": {
+                            "a": "a) FIFO",
+                            "b": "b) Weighted Average Cost",
+                            "c": "c) LIFO",
+                            "d": "d) Standard Costing"
+                        },
+                        "answer": "c) LIFO",
+                        "explanation": "IAS 2 prohibits the use of LIFO (Last-In, First-Out) due to concerns that LIFO inventory on the balance sheet reflects outdated historical costs."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "The LIFO Reserve is defined as:",
+                        "options": {
+                            "a": "a) FIFO Inventory Value - LIFO Inventory Value",
+                            "b": "b) LIFO Inventory Value - FIFO Inventory Value",
+                            "c": "c) LIFO COGS - FIFO COGS",
+                            "d": "d) Total Inventory / Total Assets"
+                        },
+                        "answer": "a) FIFO Inventory Value - LIFO Inventory Value",
+                        "explanation": "LIFO Reserve = Inventory(FIFO) - Inventory(LIFO). It reflects the cumulative difference in inventory valuation between FIFO and LIFO."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "Under the revenue recognition standard (ASC 606 / IFRS 15), revenue is recognized when:",
+                        "options": {
+                            "a": "a) Cash is collected from the customer",
+                            "b": "b) A contract is signed",
+                            "c": "c) The performance obligation is satisfied by transferring control of goods or services to the customer",
+                            "d": "d) The invoice is sent"
+                        },
+                        "answer": "c) The performance obligation is satisfied by transferring control of goods or services to the customer",
+                        "explanation": "Under the 5-step model of ASC 606 / IFRS 15, revenue is recognized when (or as) the entity satisfies a performance obligation by transferring promised goods or services."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "What is the annual depreciation expense under the Straight-Line method for an asset costing $100,000 with a salvage value of $10,000 and a 5-year useful life?",
+                        "options": {
+                            "a": "a) $18,000",
+                            "b": "b) $20,000",
+                            "c": "c) $22,000",
+                            "d": "d) $25,000"
+                        },
+                        "answer": "a) $18,000",
+                        "explanation": "Annual Depreciation = (Cost - Salvage Value) / Useful Life = ($100,000 - $10,000) / 5 = $90,000 / 5 = $18,000 per year."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "The Double Declining Balance (DDB) depreciation rate for an asset with a 5-year useful life is:",
+                        "options": {
+                            "a": "a) 20%",
+                            "b": "b) 40%",
+                            "c": "c) 50%",
+                            "d": "d) 60%"
+                        },
+                        "answer": "b) 40%",
+                        "explanation": "Straight-line rate = 1 / 5 = 20%. Double Declining Rate = 2 * Straight-line rate = 2 * 20% = 40% applied to beginning book value."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "A Deferred Tax Liability (DTL) is created when:",
+                        "options": {
+                            "a": "a) Taxable income is higher than accounting (book) income",
+                            "b": "b) Accounting (book) income is higher than taxable income due to temporary differences (e.g. accelerated tax depreciation)",
+                            "c": "c) The company incurs a net operating loss (NOL)",
+                            "d": "d) Permanent tax differences occur"
+                        },
+                        "answer": "b) Accounting (book) income is higher than taxable income due to temporary differences (e.g. accelerated tax depreciation)",
+                        "explanation": "When book income exceeds taxable income due to temporary timing differences (such as accelerated MACRS depreciation for tax vs straight-line for books), taxes are deferred to future periods, creating a DTL."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Under lower-of-cost-or-net-realizable-value (LCNRV) rule, Net Realizable Value (NRV) is estimated as:",
+                        "options": {
+                            "a": "a) Estimated selling price in ordinary course of business minus estimated costs of completion and disposal",
+                            "b": "b) Replacement cost",
+                            "c": "c) Historical purchase cost",
+                            "d": "d) Fair market value plus transportation"
+                        },
+                        "answer": "a) Estimated selling price in ordinary course of business minus estimated costs of completion and disposal",
+                        "explanation": "NRV = Estimated Selling Price - Estimated Costs of Completion and Sale. If NRV is below cost, inventory must be written down."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3. Valuation & Equity Research",
+        "links": [
+            {
+                "text": "Discounted Cash Flow (DCF) Valuation",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Discounted Cash Flow (DCF) Valuation”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "What is the formula to calculate Free Cash Flow to Firm (FCFF) starting from EBIT with tax rate T, Depreciation (D&A), Capital Expenditures (CapEx), and change in Net Working Capital (ΔNWC)?",
+                        "options": {
+                            "a": "a) FCFF = EBIT*(1 - T) + D&A - CapEx - ΔNWC",
+                            "b": "b) FCFF = Net Income + D&A - CapEx - ΔNWC + Net Borrowing",
+                            "c": "c) FCFF = EBITDA - CapEx - Interest",
+                            "d": "d) FCFF = Operating Cash Flow + CapEx"
+                        },
+                        "answer": "a) FCFF = EBIT*(1 - T) + D&A - CapEx - ΔNWC",
+                        "explanation": "FCFF represents uncommitted cash flow available to all capital providers (both debt and equity): FCFF = NOPAT + D&A - CapEx - ΔNWC, where NOPAT = EBIT*(1 - T)."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "Free Cash Flow to Equity (FCFE) is discounted at which discount rate to find Equity Value?",
+                        "options": {
+                            "a": "a) Weighted Average Cost of Capital (WACC)",
+                            "b": "b) Cost of Equity (Ke)",
+                            "c": "c) Pre-tax Cost of Debt (Kd)",
+                            "d": "d) Risk-free Rate (Rf)"
+                        },
+                        "answer": "b) Cost of Equity (Ke)",
+                        "explanation": "Because FCFE represents residual cash flows available solely to equity shareholders after servicing debt, it must be discounted at the Cost of Equity (Ke)."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "What is the relationship between Enterprise Value (EV) and Equity Value?",
+                        "options": {
+                            "a": "a) Enterprise Value = Equity Value + Total Debt + Preferred Stock + Minority Interest - Cash & Cash Equivalents",
+                            "b": "b) Enterprise Value = Equity Value - Total Debt + Cash",
+                            "c": "c) Equity Value = Enterprise Value + Total Debt",
+                            "d": "d) Enterprise Value = Market Capitalization / Total Shares"
+                        },
+                        "answer": "a) Enterprise Value = Equity Value + Total Debt + Preferred Stock + Minority Interest - Cash & Cash Equivalents",
+                        "explanation": "Enterprise Value measures the total economic value of the operating business: EV = Market Cap (Equity Value) + Total Debt + Preferred Stock + Non-controlling Interest - Cash."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "Using the Gordon Growth perpetuity formula, what is Terminal Value (TV) at year n with final year cash flow FCF_n, discount rate r, and perpetual growth rate g?",
+                        "options": {
+                            "a": "a) TV = [FCF_n * (1 + g)] / (r - g)",
+                            "b": "b) TV = FCF_n / (r + g)",
+                            "c": "c) TV = FCF_n * (1 + r)^n",
+                            "d": "d) TV = [FCF_n * (1 + g)] / r"
+                        },
+                        "answer": "a) TV = [FCF_n * (1 + g)] / (r - g)",
+                        "explanation": "Terminal Value represents the present value of all cash flows beyond the explicit forecast period: TV_n = FCF_(n+1) / (r - g) = [FCF_n * (1 + g)] / (r - g)."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "In a DCF analysis, the perpetual growth rate (g) used in the terminal value calculation should generally not exceed:",
+                        "options": {
+                            "a": "a) The long-term nominal GDP growth rate of the economy",
+                            "b": "b) The company's historical 5-year revenue growth",
+                            "c": "c) The firm's ROIC",
+                            "d": "d) 15%"
+                        },
+                        "answer": "a) The long-term nominal GDP growth rate of the economy",
+                        "explanation": "If a company's perpetual terminal growth rate exceeds long-term GDP growth, the company would theoretically become larger than the entire economy over time, which is impossible."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "How is Free Cash Flow to Equity (FCFE) calculated from Net Income?",
+                        "options": {
+                            "a": "a) FCFE = Net Income + D&A - CapEx - ΔNWC + Net Borrowing (Debt Issued - Debt Repaid)",
+                            "b": "b) FCFE = Net Income - D&A + CapEx",
+                            "c": "c) FCFE = Net Income + Dividends",
+                            "d": "d) FCFE = Net Income - Interest*(1 - T)"
+                        },
+                        "answer": "a) FCFE = Net Income + D&A - CapEx - ΔNWC + Net Borrowing (Debt Issued - Debt Repaid)",
+                        "explanation": "FCFE adjusts Net Income for non-cash charges (D&A), reinvestment needs (CapEx and NWC), and net cash flows from debt financing (Net Borrowing)."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "The Exit Multiple Method for estimating Terminal Value calculates TV as:",
+                        "options": {
+                            "a": "a) Projected Terminal Year Metric (e.g. EBITDA_n) * Target Multiple (e.g. EV/EBITDA)",
+                            "b": "b) Terminal Cash Flow / WACC",
+                            "c": "c) Current Share Price * Total Shares Outstanding",
+                            "d": "d) Book Value of Assets * Inflation Rate"
+                        },
+                        "answer": "a) Projected Terminal Year Metric (e.g. EBITDA_n) * Target Multiple (e.g. EV/EBITDA)",
+                        "explanation": "The Exit Multiple method assumes the business will be sold at the end of the forecast period for a multiple of operating metric, e.g. TV = EBITDA_n * (EV/EBITDA multiple)."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "What is the present value of a terminal value of $500M occurring in Year 5 with a WACC of 10%?",
+                        "options": {
+                            "a": "a) $310.46M",
+                            "b": "b) $341.51M",
+                            "c": "c) $375.66M",
+                            "d": "d) $454.55M"
+                        },
+                        "answer": "a) $310.46M",
+                        "explanation": "PV = TV_5 / (1 + WACC)^5 = $500M / (1.10)^5 = $500M / 1.61051 = $310.46M."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "If a company has an Enterprise Value of $1,000M, Debt of $300M, Cash of $50M, and 20M diluted shares outstanding, what is the intrinsic stock price per share?",
+                        "options": {
+                            "a": "a) $37.50",
+                            "b": "b) $47.50",
+                            "c": "c) $50.00",
+                            "d": "d) $62.50"
+                        },
+                        "answer": "a) $37.50",
+                        "explanation": "Equity Value = EV - Debt + Cash = $1,000M - $300M + $50M = $750M. Stock Price = Equity Value / Shares = $750M / 20M = $37.50."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "Mid-year discounting convention is used in DCF models because:",
+                        "options": {
+                            "a": "a) Cash flows occur evenly throughout the year rather than entirely at year-end",
+                            "b": "b) Taxes are paid semi-annually",
+                            "c": "c) WACC changes mid-year",
+                            "d": "d) It halves the discount rate"
+                        },
+                        "answer": "a) Cash flows occur evenly throughout the year rather than entirely at year-end",
+                        "explanation": "In reality, companies generate revenues and incur expenses continuously. Mid-year discounting discounts year t cash flow by (t - 0.5) periods, preventing undervaluation."
+                    }
+                ]
+            },
+            {
+                "text": "Dividend Discount Models (DDM)",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Dividend Discount Models (DDM)”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "The Gordon Growth Model determines the intrinsic value of a stock (P0) as:",
+                        "options": {
+                            "a": "a) P0 = D1 / (Ke - g) = [D0 * (1 + g)] / (Ke - g)",
+                            "b": "b) P0 = D0 / (Ke + g)",
+                            "c": "c) P0 = EPS / Ke",
+                            "d": "d) P0 = D1 * (Ke - g)"
+                        },
+                        "answer": "a) P0 = D1 / (Ke - g) = [D0 * (1 + g)] / (Ke - g)",
+                        "explanation": "The Gordon Growth Model discounts an infinite stream of dividends growing at constant rate g: P0 = D1 / (Ke - g), where D1 = D0 * (1 + g)."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "In the Gordon Growth Model, the sustainable dividend growth rate (g) can be estimated as:",
+                        "options": {
+                            "a": "a) g = Retention Ratio (b) * Return on Equity (ROE)",
+                            "b": "b) g = Dividend Payout Ratio * ROA",
+                            "c": "c) g = Net Profit Margin * Total Asset Turnover",
+                            "d": "d) g = ROE / Equity Multiplier"
+                        },
+                        "answer": "a) g = Retention Ratio (b) * Return on Equity (ROE)",
+                        "explanation": "Sustainable growth rate g = b * ROE = (1 - Dividend Payout Ratio) * ROE, reflecting earnings plowed back into the firm times return earned on equity."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "If a company pays a dividend D0 = $2.00, has expected dividend growth g = 6%, and required rate of return Ke = 11%, what is the intrinsic stock price?",
+                        "options": {
+                            "a": "a) $40.00",
+                            "b": "b) $42.40",
+                            "c": "c) $44.00",
+                            "d": "d) $46.20"
+                        },
+                        "answer": "b) $42.40",
+                        "explanation": "D1 = $2.00 * (1 + 0.06) = $2.12. P0 = D1 / (Ke - g) = $2.12 / (0.11 - 0.06) = $2.12 / 0.05 = $42.40."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "What is the key limitation of the single-stage Gordon Growth Model?",
+                        "options": {
+                            "a": "a) It requires the growth rate g to be strictly less than the required rate of return Ke and constant forever",
+                            "b": "b) It cannot be used for dividend-paying companies",
+                            "c": "c) It ignores cost of equity",
+                            "d": "d) It requires estimating debt beta"
+                        },
+                        "answer": "a) It requires the growth rate g to be strictly less than the required rate of return Ke and constant forever",
+                        "explanation": "If g ≥ Ke, the formula yields a negative or infinite value. Furthermore, assuming a constant growth rate forever is unrealistic for fast-growing companies."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "A two-stage Dividend Discount Model is best suited for valuing companies that:",
+                        "options": {
+                            "a": "a) Are currently growing at an unsustainably high rate before transitioning to a stable long-term growth rate",
+                            "b": "b) Never pay any dividends",
+                            "c": "c) Are in liquidation",
+                            "d": "d) Have zero retained earnings"
+                        },
+                        "answer": "a) Are currently growing at an unsustainably high rate before transitioning to a stable long-term growth rate",
+                        "explanation": "Two-stage DDM models an initial high-growth phase (e.g. patent protection or rapid expansion) followed by a mature, stable perpetual growth phase."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "The H-Model DDM assumes that:",
+                        "options": {
+                            "a": "a) Growth drops linearly from an initial high rate to a long-term stable rate over transition period 2H",
+                            "b": "b) Growth is constant in all years",
+                            "c": "c) Dividends are paid quarterly rather than annually",
+                            "d": "d) Growth rate follows a normal distribution"
+                        },
+                        "answer": "a) Growth drops linearly from an initial high rate to a long-term stable rate over transition period 2H",
+                        "explanation": "The H-Model approximates the value of a firm whose high initial growth rate declines linearly over 2H years to a permanent sustainable rate."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "If a company has a 100% dividend payout ratio, its sustainable growth rate (g) will be:",
+                        "options": {
+                            "a": "a) Equal to ROE",
+                            "b": "b) Zero",
+                            "c": "c) Negative",
+                            "d": "d) Equal to Cost of Equity"
+                        },
+                        "answer": "b) Zero",
+                        "explanation": "Since Retention Ratio b = 1 - Payout Ratio = 1 - 1.0 = 0, sustainable growth g = b * ROE = 0 * ROE = 0."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "When valuing non-dividend-paying high-growth tech stocks, analysts prefer FCFF/FCFE models over DDM because:",
+                        "options": {
+                            "a": "a) FCF models measure cash-generating capacity regardless of dividend payout policy",
+                            "b": "b) DDM is illegal under US GAAP",
+                            "c": "c) FCF models do not require a discount rate",
+                            "d": "d) High-growth stocks have zero cost of equity"
+                        },
+                        "answer": "a) FCF models measure cash-generating capacity regardless of dividend payout policy",
+                        "explanation": "Firms that reinvest all profits into growth pay no dividends; DCF captures the underlying economic cash generation that creates shareholder value."
+                    }
+                ]
+            },
+            {
+                "text": "Valuation Multiples & Relative Valuation",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Valuation Multiples &amp; Relative Valuation”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "Which of the following is an Enterprise Value multiple (capital-structure neutral)?",
+                        "options": {
+                            "a": "a) Price-to-Earnings (P/E)",
+                            "b": "b) Price-to-Book (P/B)",
+                            "c": "c) EV/EBITDA",
+                            "d": "d) Price-to-Cash-Flow (P/CF)"
+                        },
+                        "answer": "c) EV/EBITDA",
+                        "explanation": "EV/EBITDA matches Enterprise Value (operating value available to all capital providers) with EBITDA (earnings before debt interest and equity returns), making it capital-structure neutral."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "Why is the EV/EBITDA multiple preferred over P/E when comparing companies with significantly different debt levels (leverage)?",
+                        "options": {
+                            "a": "a) EBITDA is independent of capital structure and interest expense differences",
+                            "b": "b) P/E ignores stock price",
+                            "c": "c) EV/EBITDA includes taxes",
+                            "d": "d) EBITDA is always higher than Net Income"
+                        },
+                        "answer": "a) EBITDA is independent of capital structure and interest expense differences",
+                        "explanation": "Net Income in P/E is distorted by different debt loads (interest expenses) and tax regimes. EBITDA reflects pure operating profitability independent of financing choices."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "The PEG Ratio (Price/Earnings to Growth) is calculated as:",
+                        "options": {
+                            "a": "a) P/E Ratio / Annual EPS Growth Rate (as a percentage)",
+                            "b": "b) P/E Ratio * Growth Rate",
+                            "c": "c) Price / (Earnings + Growth)",
+                            "d": "d) PEG = (EV/EBITDA) / Revenue Growth"
+                        },
+                        "answer": "a) P/E Ratio / Annual EPS Growth Rate (as a percentage)",
+                        "explanation": "PEG = (P/E) / g. A PEG ratio of 1.0 is traditionally considered fair value; PEG < 1.0 may indicate an undervalued stock relative to its earnings growth."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "The Price-to-Book (P/B) ratio is especially meaningful for valuing companies in which industry?",
+                        "options": {
+                            "a": "a) Banking and Financial Institutions",
+                            "b": "b) Software-as-a-Service (SaaS)",
+                            "c": "c) Biotechnology research",
+                            "d": "d) Digital advertising"
+                        },
+                        "answer": "a) Banking and Financial Institutions",
+                        "explanation": "Banks and financial institutions hold financial assets and liabilities marked close to fair market value on balance sheets, making Book Value of Equity a reliable anchor."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "What is the Trailing P/E vs Forward P/E ratio?",
+                        "options": {
+                            "a": "a) Trailing P/E uses historical EPS (past 12 months); Forward P/E uses estimated EPS for the next 12 months",
+                            "b": "b) Trailing P/E uses book value; Forward P/E uses cash flow",
+                            "c": "c) Trailing P/E includes debt; Forward P/E excludes debt",
+                            "d": "d) Trailing P/E is only for dividend stocks"
+                        },
+                        "answer": "a) Trailing P/E uses historical EPS (past 12 months); Forward P/E uses estimated EPS for the next 12 months",
+                        "explanation": "Trailing P/E = Current Price / LTM EPS (Last Twelve Months). Forward P/E = Current Price / NTM EPS (Next Twelve Months forecasted EPS)."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "Which valuation multiple is best suited for valuing early-stage, unprofitable tech startups with negative EBITDA and negative Net Income?",
+                        "options": {
+                            "a": "a) EV/Sales (Enterprise Value to Revenue)",
+                            "b": "b) P/E Ratio",
+                            "c": "c) P/EBITDA",
+                            "d": "d) Dividend Yield"
+                        },
+                        "answer": "a) EV/Sales (Enterprise Value to Revenue)",
+                        "explanation": "When earnings, EBITDA, and cash flows are negative, EV/Sales is used because revenue is positive and reflects top-line market penetration."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "EV/EBIT is preferred over EV/EBITDA for companies in capital-intensive industries (e.g. manufacturing, airlines) because:",
+                        "options": {
+                            "a": "a) EBIT accounts for real ongoing capital wear-and-tear via depreciation expense",
+                            "b": "b) EBIT excludes taxes",
+                            "c": "c) EBITDA is illegal for manufacturing",
+                            "d": "d) CapEx is always zero"
+                        },
+                        "answer": "a) EBIT accounts for real ongoing capital wear-and-tear via depreciation expense",
+                        "explanation": "In capital-heavy industries, depreciation represents real asset consumption and replacement CapEx needs. EBITDA ignores this, overstating true cash generation."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Precedent Transaction analysis typically results in higher valuation multiples than Comparable Company (Trading Comps) analysis because:",
+                        "options": {
+                            "a": "a) Precedent transactions include a Control Premium paid by acquirers",
+                            "b": "b) M&A deals have lower tax rates",
+                            "c": "c) Trading comps ignore market price",
+                            "d": "d) Acquirers always overpay due to fraud"
+                        },
+                        "answer": "a) Precedent transactions include a Control Premium paid by acquirers",
+                        "explanation": "Acquirers pay a control premium (often 20–40% above prevailing share price) to gain 100% operational control and capture synergies."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "If a stock trades at a P/E of 20x and is expected to grow earnings at 25% annually, its PEG ratio is:",
+                        "options": {
+                            "a": "a) 0.80",
+                            "b": "b) 1.25",
+                            "c": "c) 5.00",
+                            "d": "d) 0.50"
+                        },
+                        "answer": "a) 0.80",
+                        "explanation": "PEG = (P/E) / g = 20 / 25 = 0.80."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "Which of the following creates a mismatch in valuation multiple formulation and is therefore theoretically invalid?",
+                        "options": {
+                            "a": "a) EV / Net Income",
+                            "b": "b) EV / EBITDA",
+                            "c": "c) Price / EPS",
+                            "d": "d) EV / EBIT"
+                        },
+                        "answer": "a) EV / Net Income",
+                        "explanation": "Enterprise Value is an unlevered metric (belongs to debt + equity), while Net Income is levered (belongs only to equity after interest). Pairing EV with Net Income is an apples-to-oranges mismatch."
+                    },
+                    {
+                        "question_no": 11,
+                        "question": "Cyclically adjusted P/E (CAPE or Shiller P/E) adjusts earnings by:",
+                        "options": {
+                            "a": "a) Averaging inflation-adjusted real earnings over a 10-year period",
+                            "b": "b) Multiplying earnings by GDP growth",
+                            "c": "c) Using quarterly annualized earnings",
+                            "d": "d) Excluding all non-operating expenses"
+                        },
+                        "answer": "a) Averaging inflation-adjusted real earnings over a 10-year period",
+                        "explanation": "Shiller P/E smooths out business cycle fluctuations by dividing price by the 10-year moving average of real (inflation-adjusted) earnings per share."
+                    },
+                    {
+                        "question_no": 12,
+                        "question": "In sum-of-the-parts (SOTP) valuation, a diversified conglomerate is valued by:",
+                        "options": {
+                            "a": "a) Valuing each distinct business segment individually using appropriate peer multiples and summing their enterprise values",
+                            "b": "b) Taking the average P/E of all stock market sectors",
+                            "c": "c) Multiplying consolidated revenue by 10",
+                            "d": "d) Dividing total assets by number of subsidiaries"
+                        },
+                        "answer": "a) Valuing each distinct business segment individually using appropriate peer multiples and summing their enterprise values",
+                        "explanation": "SOTP values each division (e.g. retail, cloud, finance) with its own benchmark multiples/DCF, then sums them and deducts corporate overhead/debt to find equity value."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4. Fixed Income & Debt Markets",
+        "links": [
+            {
+                "text": "Bond Pricing & Coupon Structures",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Bond Pricing &amp; Coupon Structures”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "What is the relationship between bond price and market yield (interest rates)?",
+                        "options": {
+                            "a": "a) Direct / Positive relationship",
+                            "b": "b) Inverse / Negative relationship",
+                            "c": "c) No relationship",
+                            "d": "d) Exponential positive relationship"
+                        },
+                        "answer": "b) Inverse / Negative relationship",
+                        "explanation": "Bond prices and interest rates are inversely related: as market yields rise, the present value of fixed coupon payments falls, causing bond prices to drop."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "A bond trades at a premium when its coupon rate is:",
+                        "options": {
+                            "a": "a) Greater than its Yield to Maturity (YTM)",
+                            "b": "b) Less than its Yield to Maturity (YTM)",
+                            "c": "c) Equal to its Yield to Maturity (YTM)",
+                            "d": "d) Equal to zero"
+                        },
+                        "answer": "a) Greater than its Yield to Maturity (YTM)",
+                        "explanation": "When a bond's coupon rate exceeds the prevailing market yield (YTM), investors pay more than par value ($1,000) for the attractive coupon stream, causing the bond to trade at a premium."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "What is the price of a zero-coupon bond with a face value of $1,000 maturing in 5 years with a required yield of 6% (annual compounding)?",
+                        "options": {
+                            "a": "a) $747.26",
+                            "b": "b) $700.00",
+                            "c": "c) $783.53",
+                            "d": "d) $800.00"
+                        },
+                        "answer": "a) $747.26",
+                        "explanation": "Price = Face Value / (1 + y)^n = $1,000 / (1.06)^5 = $1,000 / 1.3382256 = $747.26."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "The 'Dirty Price' (full price) of a bond equals the 'Clean Price' (flat price) plus:",
+                        "options": {
+                            "a": "a) Accrued Interest",
+                            "b": "b) Call premium",
+                            "c": "c) Default spread",
+                            "d": "d) Flotation cost"
+                        },
+                        "answer": "a) Accrued Interest",
+                        "explanation": "Dirty Price = Clean Price + Accrued Interest. Accrued interest is the coupon interest earned by the seller from the last coupon payment date to the trade settlement date."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "A callable bond gives the issuer the right to:",
+                        "options": {
+                            "a": "a) Redeem the bond before maturity at a specified call price",
+                            "b": "b) Convert the bond into common stock",
+                            "c": "c) Extend the bond maturity",
+                            "d": "d) Increase the coupon rate"
+                        },
+                        "answer": "a) Redeem the bond before maturity at a specified call price",
+                        "explanation": "Call provisions allow the issuer to retire debt early (usually exercised when interest rates fall, allowing refinancing at lower rates)."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "A putable bond gives the bondholder the right to:",
+                        "options": {
+                            "a": "a) Force the issuer to repurchase the bond at par before maturity",
+                            "b": "b) Lower the coupon rate",
+                            "c": "c) Buy shares from the issuer",
+                            "d": "d) Delay coupon payments"
+                        },
+                        "answer": "a) Force the issuer to repurchase the bond at par before maturity",
+                        "explanation": "Put provisions benefit the investor, allowing them to sell the bond back to the issuer at par if interest rates rise or issuer credit quality deteriorates."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "Floating Rate Notes (FRNs) adjust their coupon payments periodically based on:",
+                        "options": {
+                            "a": "a) A benchmark reference rate (e.g. SOFR, EURIBOR) plus a fixed quoted margin",
+                            "b": "b) The company's stock price",
+                            "c": "c) The inflation rate only",
+                            "d": "d) Annual GDP growth"
+                        },
+                        "answer": "a) A benchmark reference rate (e.g. SOFR, EURIBOR) plus a fixed quoted margin",
+                        "explanation": "FRNs have variable coupons: Coupon = Reference Rate (e.g. 3-month SOFR) + Quoted Margin (spread), maintaining their price close to par across interest rate shifts."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Treasury Inflation-Protected Securities (TIPS) adjust which component of the bond with changes in the Consumer Price Index (CPI)?",
+                        "options": {
+                            "a": "a) Principal (Face Value)",
+                            "b": "b) Coupon rate percentage",
+                            "c": "c) Maturity date",
+                            "d": "d) Credit rating"
+                        },
+                        "answer": "a) Principal (Face Value)",
+                        "explanation": "TIPS adjust the principal value semiannually based on inflation (CPI). The fixed coupon rate is then applied to the inflation-adjusted principal, providing inflation protection."
+                    }
+                ]
+            },
+            {
+                "text": "Yield Measures & Spot/Forward Rates",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Yield Measures &amp; Spot/Forward Rates”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "Current Yield of a bond is calculated as:",
+                        "options": {
+                            "a": "a) Annual Coupon Payment / Current Bond Price",
+                            "b": "b) Annual Coupon Payment / Par Value",
+                            "c": "c) Yield to Maturity * Price",
+                            "d": "d) Capital Gain / Par Value"
+                        },
+                        "answer": "a) Annual Coupon Payment / Current Bond Price",
+                        "explanation": "Current Yield = Annual Cash Coupon / Current Market Price. It measures income yield without considering capital gains/losses or time value of money."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "Yield to Maturity (YTM) is the internal rate of return (IRR) of a bond assuming:",
+                        "options": {
+                            "a": "a) The bond is held to maturity and all coupon payments are reinvested at the YTM rate",
+                            "b": "b) The bond is sold after one year",
+                            "c": "c) Coupons are reinvested at the risk-free rate",
+                            "d": "d) Default occurs before maturity"
+                        },
+                        "answer": "a) The bond is held to maturity and all coupon payments are reinvested at the YTM rate",
+                        "explanation": "YTM is the single discount rate that equates the present value of promised bond cash flows to its market price, implicitly assuming coupon reinvestment at the YTM."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "For a bond trading at a discount, which of the following relationships holds true?",
+                        "options": {
+                            "a": "a) Coupon Rate < Current Yield < Yield to Maturity",
+                            "b": "b) Yield to Maturity < Current Yield < Coupon Rate",
+                            "c": "c) Coupon Rate = Current Yield = Yield to Maturity",
+                            "d": "d) Current Yield > Yield to Maturity > Coupon Rate"
+                        },
+                        "answer": "a) Coupon Rate < Current Yield < Yield to Maturity",
+                        "explanation": "For a discount bond: Coupon Rate < Current Yield < YTM. For a premium bond: YTM < Current Yield < Coupon Rate. For a par bond: Coupon = Current Yield = YTM."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "Yield to Call (YTC) is calculated instead of YTM when:",
+                        "options": {
+                            "a": "a) A callable bond trades at a deep premium and interest rates have fallen",
+                            "b": "b) A bond trades at a discount",
+                            "c": "c) The bond is non-callable",
+                            "d": "d) Maturity is less than one year"
+                        },
+                        "answer": "a) A callable bond trades at a deep premium and interest rates have fallen",
+                        "explanation": "When rates fall and a bond trades at a premium, the issuer is highly likely to call the bond at the earliest call date, making YTC the most realistic return measure (Yield to Worst)."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "A Spot Rate (z_t) is the yield to maturity on a:",
+                        "options": {
+                            "a": "a) Zero-coupon bond maturing at time t",
+                            "b": "b) 30-year high-yield corporate bond",
+                            "c": "c) Floating rate perpetual note",
+                            "d": "d) Callable municipal bond"
+                        },
+                        "answer": "a) Zero-coupon bond maturing at time t",
+                        "explanation": "Spot rates are the theoretical zero-coupon yields for specific maturities, representing the pure time value of money with no reinvestment risk."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "The 1-year spot rate is 4% (s1 = 0.04) and the 2-year spot rate is 5% (s2 = 0.05). What is the 1-year forward rate 1 year from now (1f1)?",
+                        "options": {
+                            "a": "a) 5.00%",
+                            "b": "b) 6.01%",
+                            "c": "c) 4.50%",
+                            "d": "d) 7.12%"
+                        },
+                        "answer": "b) 6.01%",
+                        "explanation": "(1 + s2)^2 = (1 + s1) * (1 + 1f1) => (1.05)^2 = (1.04) * (1 + 1f1) => 1.1025 / 1.04 = 1.060096 => 1f1 = 6.01%."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "The process of extracting spot rates from the prices of coupon-paying government bonds is known as:",
+                        "options": {
+                            "a": "a) Bootstrapping",
+                            "b": "b) Securitization",
+                            "c": "c) Immunization",
+                            "d": "d) Arbitrage pricing"
+                        },
+                        "answer": "a) Bootstrapping",
+                        "explanation": "Bootstrapping is a recursive mathematical method used to derive the zero-coupon yield curve (spot rates) from the prices of on-the-run coupon bonds."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Yield to Worst (YTW) represents:",
+                        "options": {
+                            "a": "a) The lowest potential yield an investor can receive among all call dates, put dates, and final maturity",
+                            "b": "b) The yield in event of bankruptcy",
+                            "c": "c) The coupon rate minus inflation",
+                            "d": "d) Zero yield"
+                        },
+                        "answer": "a) The lowest potential yield an investor can receive among all call dates, put dates, and final maturity",
+                        "explanation": "Yield to Worst is the minimum yield calculated across all possible call dates and maturity, protecting conservative investors from optimistic return assumptions."
+                    }
+                ]
+            },
+            {
+                "text": "Duration & Convexity",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Duration &amp; Convexity”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "Macaulay Duration measures:",
+                        "options": {
+                            "a": "a) The weighted average time until a bond's promised cash flows are received",
+                            "b": "b) The total maturity of the bond in calendar years",
+                            "c": "c) The percentage change in bond price per basis point change in yield",
+                            "d": "d) The default probability"
+                        },
+                        "answer": "a) The weighted average time until a bond's promised cash flows are received",
+                        "explanation": "Macaulay duration is the weighted average maturity of cash flows, where weights are the present values of each cash flow divided by total bond price."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "What is the Macaulay duration of a 10-year zero-coupon bond?",
+                        "options": {
+                            "a": "a) 5 years",
+                            "b": "b) 7.5 years",
+                            "c": "c) 10 years",
+                            "d": "d) 0 years"
+                        },
+                        "answer": "c) 10 years",
+                        "explanation": "For any zero-coupon bond, because all cash flow occurs at maturity, Macaulay duration is exactly equal to its term to maturity (10 years)."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "Modified Duration (ModD) is related to Macaulay Duration (MacD) with periodic yield y and compounding frequency m as:",
+                        "options": {
+                            "a": "a) ModD = MacD / (1 + y/m)",
+                            "b": "b) ModD = MacD * (1 + y/m)",
+                            "c": "c) ModD = MacD / y^2",
+                            "d": "d) ModD = MacD - Convexity"
+                        },
+                        "answer": "a) ModD = MacD / (1 + y/m)",
+                        "explanation": "Modified Duration = Macaulay Duration / (1 + y/m). It measures the percentage price sensitivity of a bond to a 100 basis point change in yield."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "If a bond has a Modified Duration of 8 years and market yields rise by 50 basis points (0.50%), the estimated percentage change in bond price is:",
+                        "options": {
+                            "a": "a) +4.0%",
+                            "b": "b) -4.0%",
+                            "c": "c) -8.0%",
+                            "d": "d) +8.0%"
+                        },
+                        "answer": "b) -4.0%",
+                        "explanation": "ΔP / P ≈ -Modified Duration * Δy = -8 * (+0.0050) = -0.04 or -4.0%."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "Dollar Duration (or DV01 / PV01) measures:",
+                        "options": {
+                            "a": "a) The absolute dollar change in bond value for a 1 basis point (0.01%) change in yield",
+                            "b": "b) The bond's price in foreign currency",
+                            "c": "c) Total coupon paid in dollars",
+                            "d": "d) Dollar value of default loss"
+                        },
+                        "answer": "a) The absolute dollar change in bond value for a 1 basis point (0.01%) change in yield",
+                        "explanation": "DV01 (Dollar Value of an 01) measures the price change in dollars for a 1 bp (0.01%) change in interest rates: DV01 = Modified Duration * Bond Price * 0.0001."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "Bond Convexity improves upon duration estimates because:",
+                        "options": {
+                            "a": "a) The price-yield relationship of an option-free bond is non-linear (curved/convex)",
+                            "b": "b) Duration ignores inflation",
+                            "c": "c) Convexity eliminates interest rate risk completely",
+                            "d": "d) Convexity is always negative"
+                        },
+                        "answer": "a) The price-yield relationship of an option-free bond is non-linear (curved/convex)",
+                        "explanation": "Duration is a linear first-order approximation. Convexity provides the second-order adjustment for the curvature of the price-yield function: ΔP/P ≈ -ModD*Δy + 0.5*Convexity*(Δy)^2."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "Callable bonds exhibit 'Negative Convexity' at low interest rates because:",
+                        "options": {
+                            "a": "a) The price appreciation is capped by the call price as yields fall",
+                            "b": "b) Bondholders refuse to accept coupons",
+                            "c": "c) The coupon rate becomes negative",
+                            "d": "d) Duration becomes infinite"
+                        },
+                        "answer": "a) The price appreciation is capped by the call price as yields fall",
+                        "explanation": "As yields decline, the likelihood of the bond being called increases, compressing upside price potential near the call price and producing negative convexity."
+                    }
+                ]
+            },
+            {
+                "text": "Yield Curves & Credit Risk",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Yield Curves &amp; Credit Risk”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "An inverted yield curve (where short-term yields are higher than long-term yields) is historically regarded as a leading indicator of:",
+                        "options": {
+                            "a": "a) An impending economic recession",
+                            "b": "b) Rapid economic boom and high inflation",
+                            "c": "c) A stock market bubble",
+                            "d": "d) Sovereign debt default"
+                        },
+                        "answer": "a) An impending economic recession",
+                        "explanation": "An inverted yield curve indicates market expectations of aggressive central bank rate cuts in response to economic slowdown/recession."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "The Pure Expectations Theory of the term structure of interest rates asserts that:",
+                        "options": {
+                            "a": "a) Forward rates are unbiased predictors of future spot rates",
+                            "b": "b) Long-term rates must always include a positive liquidity premium",
+                            "c": "c) Markets are strictly segmented by maturity",
+                            "d": "d) Investors only buy 30-year bonds"
+                        },
+                        "answer": "a) Forward rates are unbiased predictors of future spot rates",
+                        "explanation": "Pure Expectations Theory states that long-term interest rates equal the geometric average of expected future short-term rates, with zero risk/liquidity premiums."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "The Liquidity Preference Theory explains upward-sloping yield curves by arguing that:",
+                        "options": {
+                            "a": "a) Investors demand a liquidity premium for holding riskier, less liquid longer-term bonds",
+                            "b": "b) Short-term bonds are illegal for pension funds",
+                            "c": "c) Inflation is always zero",
+                            "d": "d) Borrowers prefer short-term loans"
+                        },
+                        "answer": "a) Investors demand a liquidity premium for holding riskier, less liquid longer-term bonds",
+                        "explanation": "Lenders prefer short-term liquidity; to induce them to lend long-term, borrowers must offer a liquidity premium that increases with maturity."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "Which credit rating marks the boundary between Investment Grade and Speculative Grade (High Yield / Junk) bonds according to S&P/Fitch?",
+                        "options": {
+                            "a": "a) BBB- vs BB+",
+                            "b": "b) A- vs BBB+",
+                            "c": "c) BB- vs B+",
+                            "d": "d) AAA vs AA+"
+                        },
+                        "answer": "a) BBB- vs BB+",
+                        "explanation": "Investment grade is BBB- (S&P/Fitch) or Baa3 (Moody's) and above. BB+ / Ba1 and below are classified as Speculative Grade (High Yield / Junk)."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "Credit Spread on a corporate bond is defined as:",
+                        "options": {
+                            "a": "a) The difference between the corporate bond yield and the yield of a benchmark risk-free government bond of identical maturity",
+                            "b": "b) The bid-ask spread in trading",
+                            "c": "c) The coupon rate minus inflation",
+                            "d": "d) The tax rate on interest"
+                        },
+                        "answer": "a) The difference between the corporate bond yield and the yield of a benchmark risk-free government bond of identical maturity",
+                        "explanation": "Credit Spread = Corporate Yield - Government Benchmark Yield. It compensates investors for credit risk, liquidity risk, and default probability."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "Expected Loss on a credit exposure is calculated as:",
+                        "options": {
+                            "a": "a) Exposure at Default (EAD) * Probability of Default (PD) * Loss Given Default (LGD)",
+                            "b": "b) Total Debt * Interest Rate",
+                            "c": "c) EAD / Recovery Rate",
+                            "d": "d) PD * Bond Price"
+                        },
+                        "answer": "a) Exposure at Default (EAD) * Probability of Default (PD) * Loss Given Default (LGD)",
+                        "explanation": "Expected Loss (EL) = EAD * PD * LGD, where LGD = 1 - Recovery Rate."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "A 'Fallen Angel' in debt markets refers to a bond that:",
+                        "options": {
+                            "a": "a) Was issued as Investment Grade but was downgraded to Junk status",
+                            "b": "b) Was issued as Junk and upgraded to Investment Grade",
+                            "c": "c) Defaulted on its first coupon payment",
+                            "d": "d) Has zero maturity"
+                        },
+                        "answer": "a) Was issued as Investment Grade but was downgraded to Junk status",
+                        "explanation": "A Fallen Angel is a bond downgraded from investment grade (BBB- or higher) to high-yield/junk (BB+ or lower). A junk bond upgraded to investment grade is a 'Rising Star'."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5. Derivatives & Risk Management",
+        "links": [
+            {
+                "text": "Forwards & Futures Contracts",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Forwards &amp; Futures Contracts”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "What is the primary operational difference between a Forward contract and a Futures contract?",
+                        "options": {
+                            "a": "a) Forwards are standardized and exchange-traded; Futures are customized and Over-The-Counter (OTC)",
+                            "b": "b) Futures are standardized and exchange-traded with daily mark-to-market; Forwards are customized OTC contracts settled at maturity",
+                            "c": "c) Forwards require daily margin calls; Futures do not",
+                            "d": "d) Futures have zero counterparty risk; Forwards have no counterparty risk"
+                        },
+                        "answer": "b) Futures are standardized and exchange-traded with daily mark-to-market; Forwards are customized OTC contracts settled at maturity",
+                        "explanation": "Futures are exchange-traded, standardized contracts with clearinghouse guarantees and daily mark-to-market settlement. Forwards are privately negotiated OTC bilateral agreements."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "According to the Spot-Futures Parity (Cost of Carry model), the theoretical forward price F0 on an underlying asset with spot price S0, risk-free rate r, and storage cost c (as a % of price) over time T is:",
+                        "options": {
+                            "a": "a) F0 = S0 * e^[(r + c) * T]",
+                            "b": "b) F0 = S0 * e^[(r - c) * T]",
+                            "c": "c) F0 = S0 / (r + c)",
+                            "d": "d) F0 = S0 * (1 + r * T)"
+                        },
+                        "answer": "a) F0 = S0 * e^[(r + c) * T]",
+                        "explanation": "Under the cost of carry model with continuous compounding, Forward Price = Spot * e^[(r + cost of carry - convenience yield) * T]."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "In futures trading, if an investor's account balance falls below the Maintenance Margin, they receive a margin call requiring them to deposit funds up to the:",
+                        "options": {
+                            "a": "a) Initial Margin level",
+                            "b": "b) Maintenance Margin level only",
+                            "c": "c) Total contract notional value",
+                            "d": "d) Variation margin of 50%"
+                        },
+                        "answer": "a) Initial Margin level",
+                        "explanation": "When equity drops below the maintenance margin threshold, the trader receives a variation margin call requiring a deposit to restore the account back to the Initial Margin level."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "A market situation where the futures price is higher than the current spot price (F0 > S0) is known as:",
+                        "options": {
+                            "a": "a) Contango (Normal market)",
+                            "b": "b) Backwardation (Inverted market)",
+                            "c": "c) Arbitrage equilibrium",
+                            "d": "d) Short squeeze"
+                        },
+                        "answer": "a) Contango (Normal market)",
+                        "explanation": "Contango occurs when futures prices exceed spot prices (upward-sloping futures curve) due to positive carrying costs (financing + storage). Backwardation occurs when spot > futures."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "Basis in derivatives markets is defined as:",
+                        "options": {
+                            "a": "a) Spot Price minus Futures Price (Spot - Futures)",
+                            "b": "b) Strike Price minus Stock Price",
+                            "c": "c) Initial Margin / Maintenance Margin",
+                            "d": "d) Bid Price minus Ask Price"
+                        },
+                        "answer": "a) Spot Price minus Futures Price (Spot - Futures)",
+                        "explanation": "Basis = Spot Price - Futures Price. As expiration approaches, the basis converges to zero (convergence property)."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "A wheat farmer who wants to lock in a selling price for his upcoming harvest should enter into a:",
+                        "options": {
+                            "a": "a) Short hedge (Sell futures / forward contracts)",
+                            "b": "b) Long hedge (Buy futures contracts)",
+                            "c": "c) Long call option",
+                            "d": "d) Naked short put"
+                        },
+                        "answer": "a) Short hedge (Sell futures / forward contracts)",
+                        "explanation": "A short hedge involves selling futures to protect against declining prices of an asset the hedger owns or produces."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "What is the optimal hedge ratio (h*) calculated using covariance between spot (ΔS) and futures (ΔF) and variance of futures (σ_F^2)?",
+                        "options": {
+                            "a": "a) h* = Cov(ΔS, ΔF) / σ_F^2 = ρ * (σ_S / σ_F)",
+                            "b": "b) h* = σ_F / σ_S",
+                            "c": "c) h* = ρ * (σ_F / σ_S)",
+                            "d": "d) h* = Cov(ΔS, ΔF) / σ_S^2"
+                        },
+                        "answer": "a) h* = Cov(ΔS, ΔF) / σ_F^2 = ρ * (σ_S / σ_F)",
+                        "explanation": "Minimum-variance hedge ratio h* = Correlation (ρ) * (StdDev of Spot / StdDev of Futures) = Cov(ΔS, ΔF) / Var(ΔF)."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Convenience yield represents:",
+                        "options": {
+                            "a": "a) The non-monetary benefit of physically holding a physical commodity in inventory during shortages",
+                            "b": "b) The interest paid by brokers on margin accounts",
+                            "c": "c) The tax rebate on derivative profits",
+                            "d": "d) The dividend yield on stock indices"
+                        },
+                        "answer": "a) The non-monetary benefit of physically holding a physical commodity in inventory during shortages",
+                        "explanation": "Convenience yield is the implied benefit from holding physical inventory (e.g. keeping a factory running during shortages) rather than holding a derivative contract."
+                    }
+                ]
+            },
+            {
+                "text": "Options Fundamentals & Payoffs",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Options Fundamentals &amp; Payoffs”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "A Call Option gives the buyer:",
+                        "options": {
+                            "a": "a) The right, but not the obligation, to buy an underlying asset at a specified strike price before or at expiration",
+                            "b": "b) The obligation to buy the asset",
+                            "c": "c) The right to sell the asset at the strike price",
+                            "d": "d) The obligation to sell the asset"
+                        },
+                        "answer": "a) The right, but not the obligation, to buy an underlying asset at a specified strike price before or at expiration",
+                        "explanation": "A call option grants the holder the right (without obligation) to purchase the underlying stock at the strike price (K)."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "What is the payoff at expiration for a Long Call option with strike K and stock price S_T?",
+                        "options": {
+                            "a": "a) Max(0, S_T - K)",
+                            "b": "b) Max(0, K - S_T)",
+                            "c": "c) S_T - K",
+                            "d": "d) Min(0, S_T - K)"
+                        },
+                        "answer": "a) Max(0, S_T - K)",
+                        "explanation": "If S_T > K, the option is exercised for a gain of S_T - K. If S_T ≤ K, the option expires worthless (payoff = 0). Thus, Payoff = Max(0, S_T - K)."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "What is the maximum potential loss for the buyer of an Out-of-the-Money (OTM) Put Option?",
+                        "options": {
+                            "a": "a) The premium paid to purchase the option",
+                            "b": "b) The strike price K",
+                            "c": "c) Unlimited loss",
+                            "d": "d) Stock Price minus Strike Price"
+                        },
+                        "answer": "a) The premium paid to purchase the option",
+                        "explanation": "Option buyers have limited downside risk strictly capped at the initial premium paid, while possessing asymmetric upside potential."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "An American option differs from a European option because an American option can be exercised:",
+                        "options": {
+                            "a": "a) At any time up to and including the expiration date",
+                            "b": "b) Only on the exact expiration date",
+                            "c": "c) Only on specific trading holidays",
+                            "d": "d) Only after expiration"
+                        },
+                        "answer": "a) At any time up to and including the expiration date",
+                        "explanation": "American options can be exercised on any business day prior to and on expiration. European options can only be exercised on the expiration date."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "A Put Option is 'In-the-Money' (ITM) when the underlying stock price (S) is:",
+                        "options": {
+                            "a": "a) Below the strike price (S < K)",
+                            "b": "b) Above the strike price (S > K)",
+                            "c": "c) Equal to the strike price (S = K)",
+                            "d": "d) Zero"
+                        },
+                        "answer": "a) Below the strike price (S < K)",
+                        "explanation": "A put option allows selling at K. If market price S < K, exercising yields immediate positive intrinsic value (K - S > 0)."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "A Covered Call strategy consists of:",
+                        "options": {
+                            "a": "a) Long Stock + Short Call Option",
+                            "b": "b) Long Stock + Long Put Option",
+                            "c": "c) Long Call + Long Put",
+                            "d": "d) Short Stock + Short Put"
+                        },
+                        "answer": "a) Long Stock + Short Call Option",
+                        "explanation": "In a covered call, an investor holding long stock sells a call option against the position to generate premium income, sacrificing upside beyond the strike price."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "A Protective Put strategy consists of:",
+                        "options": {
+                            "a": "a) Long Stock + Long Put Option",
+                            "b": "b) Long Stock + Short Put Option",
+                            "c": "c) Short Stock + Long Call Option",
+                            "d": "d) Long Call + Short Call"
+                        },
+                        "answer": "a) Long Stock + Long Put Option",
+                        "explanation": "A protective put combines long stock with a long put to establish a price floor, protecting the stock position against severe downside drops."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "A Long Straddle option strategy involves:",
+                        "options": {
+                            "a": "a) Buying a Call and a Put with the same strike price and same expiration date",
+                            "b": "b) Buying a Call and selling a Put",
+                            "c": "c) Selling a Call and selling a Put with different strikes",
+                            "d": "d) Buying two Calls with different strikes"
+                        },
+                        "answer": "a) Buying a Call and a Put with the same strike price and same expiration date",
+                        "explanation": "A long straddle profits from large volatility in either direction: the investor gains if the stock moves significantly up or down beyond total premiums paid."
+                    },
+                    {
+                        "question_no": 9,
+                        "question": "According to Put-Call Parity for European options with stock S, strike K, risk-free rate r, time T, call price C, and put price P:",
+                        "options": {
+                            "a": "a) C + K * e^(-r*T) = P + S",
+                            "b": "b) C - P = S + K",
+                            "c": "c) C + P = S * e^(-r*T)",
+                            "d": "d) C * P = S * K"
+                        },
+                        "answer": "a) C + K * e^(-r*T) = P + S",
+                        "explanation": "Put-Call Parity states that a fiduciary call (Call + PV of Strike) has the exact same payoff as a protective put (Put + Stock): C + K*e^(-r*T) = P + S."
+                    },
+                    {
+                        "question_no": 10,
+                        "question": "An investor who is expecting low volatility and a range-bound stock price would most likely execute a:",
+                        "options": {
+                            "a": "a) Short Straddle / Short Strangle",
+                            "b": "b) Long Straddle",
+                            "c": "c) Long Call",
+                            "d": "d) Protective Put"
+                        },
+                        "answer": "a) Short Straddle / Short Strangle",
+                        "explanation": "Selling both a call and a put collects option premiums and profits when the underlying asset stays within a narrow trading range without large swings."
+                    }
+                ]
+            },
+            {
+                "text": "Option Pricing Models & Greeks",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Option Pricing Models &amp; Greeks”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "Which Option Greek measures the rate of change of option price with respect to changes in the underlying stock price (∂V/∂S)?",
+                        "options": {
+                            "a": "a) Delta (Δ)",
+                            "b": "b) Gamma (Γ)",
+                            "c": "c) Theta (θ)",
+                            "d": "d) Vega (ν)"
+                        },
+                        "answer": "a) Delta (Δ)",
+                        "explanation": "Delta measures the sensitivity of the option price to a $1 change in the underlying asset price. Call delta ranges from 0 to +1; put delta ranges from -1 to 0."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "Gamma (Γ) measures:",
+                        "options": {
+                            "a": "a) The rate of change of Delta with respect to changes in the underlying stock price (∂^2V/∂S^2)",
+                            "b": "b) The rate of time decay",
+                            "c": "c) Sensitivity to interest rates",
+                            "d": "d) Sensitivity to implied volatility"
+                        },
+                        "answer": "a) The rate of change of Delta with respect to changes in the underlying stock price (∂^2V/∂S^2)",
+                        "explanation": "Gamma is the second derivative of option price with respect to stock price (the curvature of delta). Gamma is highest for At-The-Money (ATM) options near expiration."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "Theta (θ) represents:",
+                        "options": {
+                            "a": "a) Time decay (the reduction in option value as time to expiration elapses)",
+                            "b": "b) Volatility sensitivity",
+                            "c": "c) Dividend yield adjustment",
+                            "d": "d) Exchange rate sensitivity"
+                        },
+                        "answer": "a) Time decay (the reduction in option value as time to expiration elapses)",
+                        "explanation": "Theta measures the loss in option value per day passing, holding all else constant. For standard long option positions, Theta is almost always negative."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "Vega (ν) measures the sensitivity of an option's price to changes in:",
+                        "options": {
+                            "a": "a) Implied Volatility (σ)",
+                            "b": "b) Risk-free interest rate (r)",
+                            "c": "c) Dividend yield (q)",
+                            "d": "d) Strike price (K)"
+                        },
+                        "answer": "a) Implied Volatility (σ)",
+                        "explanation": "Vega measures the change in option price for a 1% change in implied volatility. Both long calls and long puts have positive Vega."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "Rho (ρ) measures option price sensitivity to changes in:",
+                        "options": {
+                            "a": "a) The risk-free interest rate",
+                            "b": "b) Historical volatility",
+                            "c": "c) Trading volume",
+                            "d": "d) Bid-ask spread"
+                        },
+                        "answer": "a) The risk-free interest rate",
+                        "explanation": "Rho = ∂V / ∂r. Call options have positive Rho (increase in value when interest rates rise), while put options have negative Rho."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "In the Black-Scholes-Merton option pricing formula for a non-dividend paying European call, C = S0*N(d1) - K*e^(-r*T)*N(d2), what does N(d2) represent in risk-neutral pricing?",
+                        "options": {
+                            "a": "a) The risk-neutral probability that the call option will expire in-the-money (exercised)",
+                            "b": "b) The option delta",
+                            "c": "c) The expected stock return",
+                            "d": "d) The standard deviation of stock price"
+                        },
+                        "answer": "a) The risk-neutral probability that the call option will expire in-the-money (exercised)",
+                        "explanation": "In Black-Scholes, N(d2) is the risk-neutral probability that the stock price at expiration will exceed the strike price (S_T > K)."
+                    }
+                ]
+            },
+            {
+                "text": "Swaps & Credit Derivatives",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Swaps &amp; Credit Derivatives”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "In a plain vanilla Interest Rate Swap, the two counterparties agree to exchange:",
+                        "options": {
+                            "a": "a) Fixed-rate interest payments for floating-rate interest payments on a specified notional principal in the same currency",
+                            "b": "b) Principal amounts at inception and maturity",
+                            "c": "c) Stock shares for bond certificates",
+                            "d": "d) Foreign currencies at spot rates"
+                        },
+                        "answer": "a) Fixed-rate interest payments for floating-rate interest payments on a specified notional principal in the same currency",
+                        "explanation": "A plain vanilla interest rate swap exchanges fixed interest cash flows for floating interest cash flows (e.g. SOFR) on a notional principal with no exchange of principal."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "At the initiation of an interest rate swap, the swap rate is set such that the Net Present Value (NPV) of the swap is equal to:",
+                        "options": {
+                            "a": "a) Zero",
+                            "b": "b) The notional principal",
+                            "c": "c) The present value of fixed leg",
+                            "d": "d) 100 basis points"
+                        },
+                        "answer": "a) Zero",
+                        "explanation": "Swaps are designed so that the market value of the fixed leg equals the market value of the floating leg at inception, resulting in an initial contract value of zero."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "In a Currency Swap, unlike an interest rate swap, the counterparties typically:",
+                        "options": {
+                            "a": "a) Exchange principal amounts at inception and re-exchange them at maturity at the initial exchange rate",
+                            "b": "b) Never exchange principal",
+                            "c": "c) Only exchange fixed rates in the same currency",
+                            "d": "d) Trade on regulated exchanges only"
+                        },
+                        "answer": "a) Exchange principal amounts at inception and re-exchange them at maturity at the initial exchange rate",
+                        "explanation": "Currency swaps involve payments in two different currencies and typically feature full principal exchanges at inception and maturity to eliminate FX exposure."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "A Credit Default Swap (CDS) operates similarly to:",
+                        "options": {
+                            "a": "a) An insurance policy against default on an underlying reference debt obligation",
+                            "b": "b) An equity call option",
+                            "c": "c) A forward foreign exchange contract",
+                            "d": "d) A treasury bill"
+                        },
+                        "answer": "a) An insurance policy against default on an underlying reference debt obligation",
+                        "explanation": "In a CDS, the protection buyer pays a periodic spread (premium) to the protection seller in exchange for a payout if the reference entity suffers a credit event (default, bankruptcy)."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "If a CDS protection buyer pays a spread of 200 basis points on a $10M notional bond, what is the annual premium paid?",
+                        "options": {
+                            "a": "a) $20,000",
+                            "b": "b) $200,000",
+                            "c": "c) $2,000,000",
+                            "d": "d) $500,000"
+                        },
+                        "answer": "b) $200,000",
+                        "explanation": "Annual Premium = Notional * Spread = $10,000,000 * 0.0200 = $200,000."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "In a Total Return Swap (TRS), the total return receiver receives:",
+                        "options": {
+                            "a": "a) All interest/dividends and capital gains on the reference asset in exchange for paying a floating reference rate (e.g. SOFR + margin)",
+                            "b": "b) Only the principal repayment",
+                            "c": "c) Default protection without receiving coupons",
+                            "d": "d) Fixed currency payments"
+                        },
+                        "answer": "a) All interest/dividends and capital gains on the reference asset in exchange for paying a floating reference rate (e.g. SOFR + margin)",
+                        "explanation": "A TRS transfers both credit risk and market risk of an underlying asset to the receiver without requiring the asset to appear on the receiver's balance sheet."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6. Portfolio Management & Asset Pricing",
+        "links": [
+            {
+                "text": "Risk, Return & Diversification",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Risk, Return &amp; Diversification”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "The total risk of an individual stock can be decomposed into:",
+                        "options": {
+                            "a": "a) Systematic (Market) Risk + Unsystematic (Idiosyncratic/Specific) Risk",
+                            "b": "b) Inflation Risk + Liquidity Risk only",
+                            "c": "c) Default Risk + Currency Risk only",
+                            "d": "d) Business Risk + Operating Risk only"
+                        },
+                        "answer": "a) Systematic (Market) Risk + Unsystematic (Idiosyncratic/Specific) Risk",
+                        "explanation": "Total Risk = Systematic Risk (undiversifiable market-wide risk) + Unsystematic Risk (firm-specific risk that can be eliminated through diversification)."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "As the number of randomly selected stocks in a portfolio increases, the portfolio's total variance approaches:",
+                        "options": {
+                            "a": "a) Zero",
+                            "b": "b) The average covariance among all stocks in the market (Systematic Risk)",
+                            "c": "c) Infinity",
+                            "d": "d) The variance of the single riskiest stock"
+                        },
+                        "answer": "b) The average covariance among all stocks in the market (Systematic Risk)",
+                        "explanation": "Diversification eliminates unsystematic firm-specific variance, leaving only non-diversifiable systematic market risk (average covariance)."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "Maximum diversification benefits are achieved when the correlation coefficient (ρ) between two portfolio assets is:",
+                        "options": {
+                            "a": "a) +1.0",
+                            "b": "b) 0.0",
+                            "c": "c) -1.0 (Perfect negative correlation)",
+                            "d": "d) +0.5"
+                        },
+                        "answer": "c) -1.0 (Perfect negative correlation)",
+                        "explanation": "When correlation ρ = -1.0, asset price movements completely offset each other, allowing the creation of a zero-variance (risk-free) portfolio."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "What is the expected return of a two-asset portfolio with 60% in Asset A (E(Ra) = 10%) and 40% in Asset B (E(Rb) = 15%)?",
+                        "options": {
+                            "a": "a) 11.0%",
+                            "b": "b) 12.0%",
+                            "c": "c) 12.5%",
+                            "d": "d) 13.0%"
+                        },
+                        "answer": "b) 12.0%",
+                        "explanation": "E(Rp) = w_A * E(R_A) + w_B * E(R_B) = (0.60 * 10%) + (0.40 * 15%) = 6.0% + 6.0% = 12.0%."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "The covariance between asset i and asset j is related to correlation ρ_ij and standard deviations σ_i, σ_j as:",
+                        "options": {
+                            "a": "a) Cov(i, j) = ρ_ij * σ_i * σ_j",
+                            "b": "b) Cov(i, j) = ρ_ij / (σ_i * σ_j)",
+                            "c": "c) Cov(i, j) = σ_i^2 + σ_j^2",
+                            "d": "d) Cov(i, j) = ρ_ij^2"
+                        },
+                        "answer": "a) Cov(i, j) = ρ_ij * σ_i * σ_j",
+                        "explanation": "Covariance measures joint variability: Cov(i, j) = Correlation * StdDev(i) * StdDev(j)."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "Which type of risk is rewarded with an expected return premium in financial markets according to modern asset pricing theory?",
+                        "options": {
+                            "a": "a) Systematic Risk only",
+                            "b": "b) Unsystematic Risk only",
+                            "c": "c) Total Standalone Variance",
+                            "d": "d) Execution Risk"
+                        },
+                        "answer": "a) Systematic Risk only",
+                        "explanation": "Because rational investors can freely eliminate unsystematic risk through diversification, markets do not provide risk premiums for bearing firm-specific risk."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "The geometric average return is always:",
+                        "options": {
+                            "a": "a) Less than or equal to the arithmetic average return (equal only if all returns are identical)",
+                            "b": "b) Strictly greater than the arithmetic average return",
+                            "c": "c) Equal to the median return",
+                            "d": "d) Independent of volatility"
+                        },
+                        "answer": "a) Less than or equal to the arithmetic average return (equal only if all returns are identical)",
+                        "explanation": "Due to compounding and volatility drag, Geometric Mean ≈ Arithmetic Mean - 0.5 * Variance. Higher volatility widens this gap."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Value at Risk (VaR) at a 95% confidence level over a 1-day horizon of $1M means:",
+                        "options": {
+                            "a": "a) There is a 5% probability that the portfolio will lose more than $1M over a 1-day period",
+                            "b": "b) The portfolio will definitely lose $1M in 95 days",
+                            "c": "c) The expected profit is $1M with 95% certainty",
+                            "d": "d) Maximum possible loss is $1M"
+                        },
+                        "answer": "a) There is a 5% probability that the portfolio will lose more than $1M over a 1-day period",
+                        "explanation": "VaR states the threshold loss such that the probability of losing more than that amount over the time horizon is equal to the significance level (1 - 0.95 = 5%)."
+                    }
+                ]
+            },
+            {
+                "text": "Modern Portfolio Theory & Efficient Frontier",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Modern Portfolio Theory &amp; Efficient Frontier”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "In Markowitz Portfolio Theory, the Efficient Frontier is defined as the set of portfolios that:",
+                        "options": {
+                            "a": "a) Offer the highest expected return for a given level of risk, or the lowest risk for a given level of expected return",
+                            "b": "b) Contain only zero-beta assets",
+                            "c": "c) Have 100% invested in the risk-free asset",
+                            "d": "d) Maximize total dividend yield"
+                        },
+                        "answer": "a) Offer the highest expected return for a given level of risk, or the lowest risk for a given level of expected return",
+                        "explanation": "The Markowitz Efficient Frontier represents the boundary of optimal portfolios providing maximum expected return for each unit of portfolio standard deviation."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "The Global Minimum Variance Portfolio (GMVP) is the portfolio on the efficient frontier that has:",
+                        "options": {
+                            "a": "a) The lowest possible variance (risk) among all possible combinations of risky assets",
+                            "b": "b) The highest Sharpe ratio",
+                            "c": "c) A beta of 1.0",
+                            "d": "d) 0% expected return"
+                        },
+                        "answer": "a) The lowest possible variance (risk) among all possible combinations of risky assets",
+                        "explanation": "GMVP is the leftmost tip of the risky asset Markowitz bullet, representing the unique portfolio with the smallest achievable standard deviation."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "When a risk-free asset is introduced into portfolio theory, the efficient frontier becomes a straight line known as the:",
+                        "options": {
+                            "a": "a) Capital Allocation Line (CAL)",
+                            "b": "b) Security Characteristic Line (SCL)",
+                            "c": "c) Yield Curve",
+                            "d": "d) Indifference curve"
+                        },
+                        "answer": "a) Capital Allocation Line (CAL)",
+                        "explanation": "Combining the risk-free asset with the optimal tangency portfolio of risky assets creates the linear Capital Allocation Line (CAL)."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "The Tangency Portfolio (Optimal Risky Portfolio) on the Capital Allocation Line is the portfolio that:",
+                        "options": {
+                            "a": "a) Maximizes the Sharpe Ratio (steepest slope of the CAL)",
+                            "b": "b) Minimizes portfolio beta",
+                            "c": "c) Has equal weights in all assets",
+                            "d": "d) Has zero standard deviation"
+                        },
+                        "answer": "a) Maximizes the Sharpe Ratio (steepest slope of the CAL)",
+                        "explanation": "The tangency point between the risk-free rate ray and the efficient frontier maximizes the slope of the CAL: Sharpe Ratio = [E(Rp) - Rf] / σ_p."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "According to Tobin's Separation Theorem (Two-Fund Separation):",
+                        "options": {
+                            "a": "a) The investment decision (finding the optimal risky portfolio) is completely separate from the financing decision (allocating between risk-free asset and risky portfolio based on risk tolerance)",
+                            "b": "b) Debt and equity must be kept in separate accounts",
+                            "c": "c) Stock and bond markets operate independently",
+                            "d": "d) Active management is separated from passive management"
+                        },
+                        "answer": "a) The investment decision (finding the optimal risky portfolio) is completely separate from the financing decision (allocating between risk-free asset and risky portfolio based on risk tolerance)",
+                        "explanation": "Tobin's separation theorem states all rational investors hold the same optimal risky tangency portfolio, adjusting only the risk-free asset allocation to fit personal risk aversion."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "An investor who borrows at the risk-free rate to invest more than 100% of their wealth in the tangency portfolio is located on the CAL:",
+                        "options": {
+                            "a": "a) To the right of the tangency portfolio (leveraged position)",
+                            "b": "b) Between the risk-free asset and the tangency portfolio (lending position)",
+                            "c": "c) Below the efficient frontier",
+                            "d": "d) At the origin"
+                        },
+                        "answer": "a) To the right of the tangency portfolio (leveraged position)",
+                        "explanation": "Allocating weight w > 1.0 in the risky portfolio by borrowing (w_Rf < 0) plots to the right of the tangency portfolio along the CAL with higher expected return and higher risk."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "An investor's optimal portfolio on the CAL is determined by the tangency between the CAL and the investor's:",
+                        "options": {
+                            "a": "a) Utility Indifference Curves",
+                            "b": "b) Security Market Line",
+                            "c": "c) Production Possibility Frontier",
+                            "d": "d) Cost curve"
+                        },
+                        "answer": "a) Utility Indifference Curves",
+                        "explanation": "The investor maximizes utility U = E(R) - 0.5 * A * σ^2 where the highest possible indifference curve touches the CAL."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "The Efficient Market Hypothesis (EMH) in its Semi-Strong form states that stock prices fully reflect:",
+                        "options": {
+                            "a": "a) All publicly available information (including past prices, financial statements, news, and earnings reports)",
+                            "b": "b) Only historical price and volume data",
+                            "c": "c) All information including insider information",
+                            "d": "d) No information at all"
+                        },
+                        "answer": "a) All publicly available information (including past prices, financial statements, news, and earnings reports)",
+                        "explanation": "Weak form = historical trading data. Semi-strong form = all publicly available information. Strong form = all public AND private (insider) information."
+                    }
+                ]
+            },
+            {
+                "text": "Capital Asset Pricing Model (CAPM) & SML",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “CAPM &amp; Security Market Line (SML)”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "In the Capital Asset Pricing Model (CAPM), Beta (β) measures:",
+                        "options": {
+                            "a": "a) The systematic risk of an asset relative to the overall market portfolio",
+                            "b": "b) The total volatility of the asset",
+                            "c": "c) The company's debt-to-equity ratio only",
+                            "d": "d) Excess return over benchmark"
+                        },
+                        "answer": "a) The systematic risk of an asset relative to the overall market portfolio",
+                        "explanation": "Beta = Cov(Ri, Rm) / Var(Rm) = ρ_im * (σ_i / σ_m). It measures the asset's sensitivity to broad market movements."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "What is the expected return of a stock with Beta = 1.4, when the risk-free rate is 4% and the expected market return is 11%?",
+                        "options": {
+                            "a": "a) 13.8%",
+                            "b": "b) 15.4%",
+                            "c": "c) 19.4%",
+                            "d": "d) 11.0%"
+                        },
+                        "answer": "a) 13.8%",
+                        "explanation": "E(Ri) = Rf + Beta * (Rm - Rf) = 4% + 1.4 * (11% - 4%) = 4% + 1.4 * 7% = 4% + 9.8% = 13.8%."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "The Security Market Line (SML) graphs expected return against which risk measure on the horizontal axis?",
+                        "options": {
+                            "a": "a) Beta (Systematic Risk)",
+                            "b": "b) Standard Deviation (Total Risk)",
+                            "c": "c) Variance",
+                            "d": "d) Semivariance"
+                        },
+                        "answer": "a) Beta (Systematic Risk)",
+                        "explanation": "The SML plots Expected Return vs Beta (Systematic Risk). In contrast, the Capital Market Line (CML) plots Expected Return vs Standard Deviation (Total Risk)."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "According to the SML, a stock that plots ABOVE the Security Market Line is:",
+                        "options": {
+                            "a": "a) Undervalued (offers an expected return higher than required by its beta)",
+                            "b": "b) Overvalued",
+                            "c": "c) Fairly priced",
+                            "d": "d) Zero beta"
+                        },
+                        "answer": "a) Undervalued (offers an expected return higher than required by its beta)",
+                        "explanation": "A stock plotting above the SML generates positive Jensen's Alpha (expected return > CAPM required return), making it an attractive undervalued buy."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "What is the Beta of the overall market portfolio and the Beta of the risk-free asset?",
+                        "options": {
+                            "a": "a) Market Beta = 1.0; Risk-free Beta = 0.0",
+                            "b": "b) Market Beta = 0.0; Risk-free Beta = 1.0",
+                            "c": "c) Market Beta = 1.0; Risk-free Beta = 1.0",
+                            "d": "d) Market Beta = 0.5; Risk-free Beta = 0.0"
+                        },
+                        "answer": "a) Market Beta = 1.0; Risk-free Beta = 0.0",
+                        "explanation": "By definition, the market's covariance with itself equals its variance (Beta = 1.0), and the risk-free asset has zero covariance with market fluctuations (Beta = 0.0)."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "The slope of the Security Market Line (SML) is equal to:",
+                        "options": {
+                            "a": "a) The Market Risk Premium (E(Rm) - Rf)",
+                            "b": "b) The Sharpe Ratio of the market",
+                            "c": "c) The risk-free rate",
+                            "d": "d) Portfolio Beta"
+                        },
+                        "answer": "a) The Market Risk Premium (E(Rm) - Rf)",
+                        "explanation": "Equation of SML: E(Ri) = Rf + Beta * [E(Rm) - Rf]. The slope with respect to Beta is the Market Risk Premium [E(Rm) - Rf]."
+                    },
+                    {
+                        "question_no": 7,
+                        "question": "The Fama-French Three-Factor Model expands CAPM by adding which two additional factors?",
+                        "options": {
+                            "a": "a) Size factor (SMB: Small Minus Big) and Value factor (HML: High Minus Low book-to-market)",
+                            "b": "b) Momentum and Liquidity",
+                            "c": "c) Inflation and GDP growth",
+                            "d": "d) Interest rate and Currency risk"
+                        },
+                        "answer": "a) Size factor (SMB: Small Minus Big) and Value factor (HML: High Minus Low book-to-market)",
+                        "explanation": "Fama-French includes: Market Risk Premium + SMB (size premium for small cap stocks) + HML (value premium for high book-to-market stocks)."
+                    },
+                    {
+                        "question_no": 8,
+                        "question": "Arbitrage Pricing Theory (APT) differs from CAPM because APT:",
+                        "options": {
+                            "a": "a) Allows for multiple macroeconomic risk factors without requiring the market portfolio assumption",
+                            "b": "b) Assumes investors are risk-loving",
+                            "c": "c) Relies on single-period quadratic utility only",
+                            "d": "d) Requires zero taxes"
+                        },
+                        "answer": "a) Allows for multiple macroeconomic risk factors without requiring the market portfolio assumption",
+                        "explanation": "APT is a multifactor model based on the law of one price and no-arbitrage conditions, avoiding the unobservable 'market portfolio' assumption of CAPM."
+                    }
+                ]
+            },
+            {
+                "text": "Performance Evaluation & Alpha",
+                "context": "<p>This set of Core Finance Multiple Choice Questions &amp; Answers (MCQs) focuses on “Performance Evaluation &amp; Alpha”.</p>",
+                "mcqs": [
+                    {
+                        "question_no": 1,
+                        "question": "The Sharpe Ratio of a portfolio is calculated as:",
+                        "options": {
+                            "a": "a) [E(Rp) - Rf] / σ_p (Excess Return / Total Standard Deviation)",
+                            "b": "b) [E(Rp) - Rf] / Beta_p",
+                            "c": "c) Rp - Benchmark Return",
+                            "d": "d) [E(Rp) - Rf] / Downside Deviation"
+                        },
+                        "answer": "a) [E(Rp) - Rf] / σ_p (Excess Return / Total Standard Deviation)",
+                        "explanation": "Sharpe Ratio = (Rp - Rf) / σ_p. It measures excess return per unit of total risk (standard deviation) and is appropriate for evaluating non-diversified portfolios."
+                    },
+                    {
+                        "question_no": 2,
+                        "question": "The Treynor Ratio differs from the Sharpe Ratio by using which risk measure in the denominator?",
+                        "options": {
+                            "a": "a) Beta (Systematic Risk)",
+                            "b": "b) Standard Deviation (Total Risk)",
+                            "c": "c) Tracking Error",
+                            "d": "d) Semivariance"
+                        },
+                        "answer": "a) Beta (Systematic Risk)",
+                        "explanation": "Treynor Ratio = (Rp - Rf) / Beta_p. It measures excess return per unit of systematic risk, making it suitable for evaluating well-diversified portfolios."
+                    },
+                    {
+                        "question_no": 3,
+                        "question": "Jensen's Alpha (α) measures:",
+                        "options": {
+                            "a": "a) The abnormal return generated by a portfolio manager over and above the return predicted by CAPM",
+                            "b": "b) Total portfolio standard deviation",
+                            "c": "c) The correlation with market index",
+                            "d": "d) The transaction fee ratio"
+                        },
+                        "answer": "a) The abnormal return generated by a portfolio manager over and above the return predicted by CAPM",
+                        "explanation": "Jensen's Alpha = Rp - [Rf + Beta * (Rm - Rf)]. A positive alpha indicates that the manager generated excess risk-adjusted returns through superior stock selection or timing."
+                    },
+                    {
+                        "question_no": 4,
+                        "question": "The Information Ratio (IR) of an actively managed fund is defined as:",
+                        "options": {
+                            "a": "a) Active Return (Fund Return - Benchmark Return) / Tracking Error",
+                            "b": "b) Excess Return / Beta",
+                            "c": "c) Alpha / Beta",
+                            "d": "d) Benchmark Return / Standard Deviation"
+                        },
+                        "answer": "a) Active Return (Fund Return - Benchmark Return) / Tracking Error",
+                        "explanation": "Information Ratio = (R_p - R_benchmark) / Tracking Error. It evaluates an active manager's ability to consistently beat a benchmark relative to the volatility of excess returns."
+                    },
+                    {
+                        "question_no": 5,
+                        "question": "The Sortino Ratio improves upon the Sharpe Ratio for skewed return distributions by using which denominator?",
+                        "options": {
+                            "a": "a) Downside Deviation (Semi-deviation below a minimum acceptable return)",
+                            "b": "b) Total Standard Deviation",
+                            "c": "c) Systematic Beta",
+                            "d": "d) Variance"
+                        },
+                        "answer": "a) Downside Deviation (Semi-deviation below a minimum acceptable return)",
+                        "explanation": "The Sortino Ratio penalizes only harmful downside volatility (losses below a target threshold) rather than total upside/downside volatility: Sortino = (Rp - Target) / Downside Deviation."
+                    },
+                    {
+                        "question_no": 6,
+                        "question": "In Brinson-Hood-Beebower performance attribution analysis, excess portfolio return is decomposed into:",
+                        "options": {
+                            "a": "a) Asset Allocation effect, Security Selection effect, and Interaction effect",
+                            "b": "b) Alpha, Beta, and Gamma",
+                            "c": "c) Dividend yield and Capital gain",
+                            "d": "d) Interest rate and Foreign exchange effect"
+                        },
+                        "answer": "a) Asset Allocation effect, Security Selection effect, and Interaction effect",
+                        "explanation": "Brinson attribution divides active return into Asset Allocation (over/underweighting sectors), Stock Selection (picking outperforming stocks within sectors), and Interaction."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,817 @@
+[
+  {
+    "file": "1000 Algorithm MCQs (DSA II).json",
+    "title": "Algorithms (DSA II)",
+    "icon": "⚡",
+    "category": "DSA",
+    "description": "Searching, Sorting, Dynamic Programming, Greedy, Graph Algorithms, and Number Theory.",
+    "total_questions": 2123,
+    "total_modules": 21,
+    "modules": [
+      {
+        "title": "1. Searching",
+        "subtopics_count": 10,
+        "questions_count": 90
+      },
+      {
+        "title": "2. Sorting",
+        "subtopics_count": 43,
+        "questions_count": 489
+      },
+      {
+        "title": "3. String Matching",
+        "subtopics_count": 2,
+        "questions_count": 25
+      },
+      {
+        "title": "4. Number Theory",
+        "subtopics_count": 10,
+        "questions_count": 113
+      },
+      {
+        "title": "5. Computational Geometry",
+        "subtopics_count": 5,
+        "questions_count": 58
+      },
+      {
+        "title": "6. Graph Search",
+        "subtopics_count": 5,
+        "questions_count": 40
+      },
+      {
+        "title": "7. Minimum Spanning Tree",
+        "subtopics_count": 3,
+        "questions_count": 20
+      },
+      {
+        "title": "8. Shortest Path",
+        "subtopics_count": 4,
+        "questions_count": 44
+      },
+      {
+        "title": "9. Flow Networks",
+        "subtopics_count": 1,
+        "questions_count": 15
+      },
+      {
+        "title": "10. Matching",
+        "subtopics_count": 3,
+        "questions_count": 38
+      },
+      {
+        "title": "11. Minimum Cut",
+        "subtopics_count": 3,
+        "questions_count": 32
+      },
+      {
+        "title": "12. Graph Coloring",
+        "subtopics_count": 4,
+        "questions_count": 52
+      },
+      {
+        "title": "13. Bipartite Graphs & Eulerian Tour",
+        "subtopics_count": 5,
+        "questions_count": 56
+      },
+      {
+        "title": "14. Recursion",
+        "subtopics_count": 24,
+        "questions_count": 257
+      },
+      {
+        "title": "15. Greedy Algorithms",
+        "subtopics_count": 4,
+        "questions_count": 39
+      },
+      {
+        "title": "16. Backtracking",
+        "subtopics_count": 3,
+        "questions_count": 42
+      },
+      {
+        "title": "17. Dynamic Programming",
+        "subtopics_count": 22,
+        "questions_count": 263
+      },
+      {
+        "title": "18. Cryptography",
+        "subtopics_count": 22,
+        "questions_count": 258
+      },
+      {
+        "title": "19. Checksum, Complexity Classes & NP Complete Problems",
+        "subtopics_count": 8,
+        "questions_count": 89
+      },
+      {
+        "title": "20. Page Replacement Algorithms",
+        "subtopics_count": 5,
+        "questions_count": 52
+      },
+      {
+        "title": "21. Miscellaneous",
+        "subtopics_count": 5,
+        "questions_count": 51
+      }
+    ]
+  },
+  {
+    "file": "1000 Computer Architecture MCQs.json",
+    "title": "Computer Architecture",
+    "icon": "🖥️",
+    "category": "Hardware",
+    "description": "Instruction Sets, Pipelining, Cache Memory, I/O Organization, and Processor Design.",
+    "total_questions": 750,
+    "total_modules": 7,
+    "modules": [
+      {
+        "title": "1. Computer Organization and Architecture MCQ on Basic Structures of Computers",
+        "subtopics_count": 4,
+        "questions_count": 49
+      },
+      {
+        "title": "2. Computer Architecture Multiple Choice Questions on Machine Instructions and Programs",
+        "subtopics_count": 8,
+        "questions_count": 90
+      },
+      {
+        "title": "3. Computer Architecture MCQ on Input/Output Organisation",
+        "subtopics_count": 18,
+        "questions_count": 206
+      },
+      {
+        "title": "4. Computer Architecture Multiple Choice Questions on Memory System",
+        "subtopics_count": 20,
+        "questions_count": 215
+      },
+      {
+        "title": "5. Computer Architecture Multiple Choice Questions on Arithmetic",
+        "subtopics_count": 6,
+        "questions_count": 60
+      },
+      {
+        "title": "6. Computer Architecture MCQ on Pipelining",
+        "subtopics_count": 3,
+        "questions_count": 30
+      },
+      {
+        "title": "7. Computer Architecture Multiple Choice Questions on Processor Families",
+        "subtopics_count": 8,
+        "questions_count": 100
+      }
+    ]
+  },
+  {
+    "file": "1000 Computer Fundamental MCQs.json",
+    "title": "Computer Fundamentals",
+    "icon": "💻",
+    "category": "Core CS",
+    "description": "Hardware, CPU, I/O, Storage, Number Systems, and Computer Codes.",
+    "total_questions": 980,
+    "total_modules": 19,
+    "modules": [
+      {
+        "title": "1. MCQ on Basic Computer Organisation",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "2. Computer Fundamental MCQ on Number Systems",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "3. Multiple Choice Questions on Computer Codes",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "4. MCQ on Computer Arithmetic",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "5. Computer Fundamental MCQ on Boolean Algebra & Logic Circuits",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "6. Computer Fundamental MCQ on Processor & Memory",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "7. Computer Fundamental MCQ on Secondary Storage Devices",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "8. Computer Fundamental MCQ on Input-Output Devices",
+        "subtopics_count": 4,
+        "questions_count": 40
+      },
+      {
+        "title": "9. MCQ on Computer Software",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "10. Computer Fundamental MCQ on Planning the Computer Program",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "11. MCQ on Computer Languages",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "12. Computer Fundamental MCQ on System Implementation and Operation",
+        "subtopics_count": 5,
+        "questions_count": 40
+      },
+      {
+        "title": "13. Computer Fundamental MCQ on Operating Systems",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "14. Computer Fundamental MCQ on Application Software Packages & Business Data Processing",
+        "subtopics_count": 7,
+        "questions_count": 60
+      },
+      {
+        "title": "15. Computer Fundamental MCQ on Data Communications & Computer Networks",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "16. Computer Fundamental MCQ on Internet",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "17. Computer Fundamental MCQ on Multimedia",
+        "subtopics_count": 4,
+        "questions_count": 40
+      },
+      {
+        "title": "18. Computer Fundamental MCQ on Classification of Computers & Emerging Technologies",
+        "subtopics_count": 7,
+        "questions_count": 70
+      },
+      {
+        "title": "19. Computer Fundamental MCQ on Information Technology",
+        "subtopics_count": 8,
+        "questions_count": 80
+      }
+    ]
+  },
+  {
+    "file": "1000 Computer Network MCQs.json",
+    "title": "Computer Networks",
+    "icon": "🌐",
+    "category": "Networks",
+    "description": "OSI & TCP/IP Layers, Routing Protocols, Transport (TCP/UDP), DNS, HTTP, and Network Security.",
+    "total_questions": 1219,
+    "total_modules": 15,
+    "modules": [
+      {
+        "title": "1. MCQs on Computer Network Basics",
+        "subtopics_count": 5,
+        "questions_count": 52
+      },
+      {
+        "title": "2. Computer Network MCQ on OSI Model",
+        "subtopics_count": 4,
+        "questions_count": 40
+      },
+      {
+        "title": "3. Multiple Choice Questions on Security & Physical Layer",
+        "subtopics_count": 9,
+        "questions_count": 81
+      },
+      {
+        "title": "4. MCQ on Application Layer",
+        "subtopics_count": 15,
+        "questions_count": 153
+      },
+      {
+        "title": "5. Computer Network MCQ on Transport Layer",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "6. Computer Network MCQ on Frame Relay",
+        "subtopics_count": 5,
+        "questions_count": 59
+      },
+      {
+        "title": "7. Computer Network MCQ on TCP/IP Protocol Suite",
+        "subtopics_count": 15,
+        "questions_count": 145
+      },
+      {
+        "title": "8. MCQ on Networking",
+        "subtopics_count": 13,
+        "questions_count": 132
+      },
+      {
+        "title": "9. Multiple Choice Questions on Network Layer",
+        "subtopics_count": 16,
+        "questions_count": 158
+      },
+      {
+        "title": "10. Computer Network MCQ on Wireless LAN’s, Electronic Mail and File Transfer",
+        "subtopics_count": 11,
+        "questions_count": 112
+      },
+      {
+        "title": "11. Computer Network MCQ on Point to Point Protocol & Error Detection",
+        "subtopics_count": 4,
+        "questions_count": 39
+      },
+      {
+        "title": "12. MCQ on Review of Information Network and Technology",
+        "subtopics_count": 5,
+        "questions_count": 56
+      },
+      {
+        "title": "13. Basic Foundations: Standards, Models, and Language",
+        "subtopics_count": 2,
+        "questions_count": 21
+      },
+      {
+        "title": "14. Computer Network MCQ on SNMP",
+        "subtopics_count": 8,
+        "questions_count": 81
+      },
+      {
+        "title": "15. MCQ on Network Management Tools, Systems, and Engineering",
+        "subtopics_count": 4,
+        "questions_count": 40
+      }
+    ]
+  },
+  {
+    "file": "1000 Core Finance MCQs.json",
+    "title": "Core Finance",
+    "icon": "📈",
+    "category": "Finance",
+    "description": "Corporate Finance, Financial Statements, Valuation, Fixed Income, Derivatives, and Portfolio Management.",
+    "total_questions": 196,
+    "total_modules": 6,
+    "modules": [
+      {
+        "title": "1. Corporate Finance & Capital Budgeting",
+        "subtopics_count": 4,
+        "questions_count": 38
+      },
+      {
+        "title": "2. Financial Accounting & Statement Analysis",
+        "subtopics_count": 4,
+        "questions_count": 38
+      },
+      {
+        "title": "3. Valuation & Equity Research",
+        "subtopics_count": 3,
+        "questions_count": 30
+      },
+      {
+        "title": "4. Fixed Income & Debt Markets",
+        "subtopics_count": 4,
+        "questions_count": 30
+      },
+      {
+        "title": "5. Derivatives & Risk Management",
+        "subtopics_count": 4,
+        "questions_count": 30
+      },
+      {
+        "title": "6. Portfolio Management & Asset Pricing",
+        "subtopics_count": 4,
+        "questions_count": 30
+      }
+    ]
+  },
+  {
+    "file": "1000 DBMS MCQs.json",
+    "title": "DBMS & SQL",
+    "icon": "🗄️",
+    "category": "Databases",
+    "description": "Relational Models, SQL Queries, Normalization, Indexing, Transactions, and Concurrency.",
+    "total_questions": 910,
+    "total_modules": 12,
+    "modules": [
+      {
+        "title": "1. The Relational Model",
+        "subtopics_count": 3,
+        "questions_count": 30
+      },
+      {
+        "title": "2. SQL : Queries, Constraints and Triggers",
+        "subtopics_count": 19,
+        "questions_count": 190
+      },
+      {
+        "title": "3. Relational Algebra",
+        "subtopics_count": 2,
+        "questions_count": 20
+      },
+      {
+        "title": "4. Database Systems Design and Implementation",
+        "subtopics_count": 9,
+        "questions_count": 90
+      },
+      {
+        "title": "5. Normalization in Database Manangement System",
+        "subtopics_count": 6,
+        "questions_count": 61
+      },
+      {
+        "title": "6. Database Programming Techniques",
+        "subtopics_count": 7,
+        "questions_count": 70
+      },
+      {
+        "title": "7. Storage and File Structures in Database Management System",
+        "subtopics_count": 8,
+        "questions_count": 80
+      },
+      {
+        "title": "8. Indexing and Hashing",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "9. Query Processing Techniques",
+        "subtopics_count": 9,
+        "questions_count": 90
+      },
+      {
+        "title": "10. Transactions",
+        "subtopics_count": 9,
+        "questions_count": 89
+      },
+      {
+        "title": "11. Concurrency Control",
+        "subtopics_count": 7,
+        "questions_count": 70
+      },
+      {
+        "title": "12. Recovery System",
+        "subtopics_count": 7,
+        "questions_count": 70
+      }
+    ]
+  },
+  {
+    "file": "1000 Data Structure MCQs (DSA I).json",
+    "title": "Data Structures (DSA I)",
+    "icon": "🌲",
+    "category": "DSA",
+    "description": "Arrays, Stacks, Queues, Linked Lists, Trees, Heaps, and Hash Tables.",
+    "total_questions": 1293,
+    "total_modules": 11,
+    "modules": [
+      {
+        "title": "1. Data Structure MCQ on Abstract Data Types",
+        "subtopics_count": 19,
+        "questions_count": 164
+      },
+      {
+        "title": "2. Multiple Choice Questions on Application of Stacks",
+        "subtopics_count": 11,
+        "questions_count": 120
+      },
+      {
+        "title": "3. Data Structure MCQ on Arrays Types",
+        "subtopics_count": 12,
+        "questions_count": 138
+      },
+      {
+        "title": "4. Data Structure MCQ on Types of Lists",
+        "subtopics_count": 6,
+        "questions_count": 58
+      },
+      {
+        "title": "5. Multiple Choice Questions on Binary Trees",
+        "subtopics_count": 22,
+        "questions_count": 240
+      },
+      {
+        "title": "6. Data Structure MCQs on B-Trees",
+        "subtopics_count": 3,
+        "questions_count": 30
+      },
+      {
+        "title": "7. Data Structure MCQ on Trees",
+        "subtopics_count": 11,
+        "questions_count": 132
+      },
+      {
+        "title": "8. MCQ on Heap",
+        "subtopics_count": 11,
+        "questions_count": 123
+      },
+      {
+        "title": "9. Data Structure Multiple Choice Questions on Trie",
+        "subtopics_count": 3,
+        "questions_count": 40
+      },
+      {
+        "title": "10. Data Structure MCQ on Hash Tables",
+        "subtopics_count": 12,
+        "questions_count": 136
+      },
+      {
+        "title": "11. Data Structure MCQ on Graph",
+        "subtopics_count": 10,
+        "questions_count": 112
+      }
+    ]
+  },
+  {
+    "file": "1000 Object Oriented Programming MCQs.json",
+    "title": "Object-Oriented Programming",
+    "icon": "🧩",
+    "category": "Software",
+    "description": "Classes, Objects, Inheritance, Polymorphism, Encapsulation, and Design Patterns.",
+    "total_questions": 1350,
+    "total_modules": 17,
+    "modules": [
+      {
+        "title": "1. MCQ on OOPs Concept & Features",
+        "subtopics_count": 7,
+        "questions_count": 105
+      },
+      {
+        "title": "2. OOPs MCQ on Constructors and Destructors",
+        "subtopics_count": 6,
+        "questions_count": 90
+      },
+      {
+        "title": "3. Object Oriented Programming MCQ on Access Specifiers",
+        "subtopics_count": 4,
+        "questions_count": 60
+      },
+      {
+        "title": "4. OOP MCQ on Class Members & Types",
+        "subtopics_count": 4,
+        "questions_count": 60
+      },
+      {
+        "title": "5. OOPs MCQ on Object",
+        "subtopics_count": 5,
+        "questions_count": 75
+      },
+      {
+        "title": "6. Object Oriented Programming MCQ on Classes",
+        "subtopics_count": 5,
+        "questions_count": 75
+      },
+      {
+        "title": "7. OOPs Multiple Choice Questions on Class Components (Using Java)",
+        "subtopics_count": 9,
+        "questions_count": 130
+      },
+      {
+        "title": "8. OOPs Multiple Choice Questions on Types of Classes (Using Java)",
+        "subtopics_count": 10,
+        "questions_count": 109
+      },
+      {
+        "title": "9. OOPs Multiple Choice Questions on Inheritance & its Types",
+        "subtopics_count": 7,
+        "questions_count": 105
+      },
+      {
+        "title": "10. OOPs MCQ on Inheritance (Using Java)",
+        "subtopics_count": 5,
+        "questions_count": 75
+      },
+      {
+        "title": "11. OOPs MCQ on Polymorphism (Using Java)",
+        "subtopics_count": 2,
+        "questions_count": 30
+      },
+      {
+        "title": "12. OOP MCQ on Member Functions & its Types",
+        "subtopics_count": 9,
+        "questions_count": 135
+      },
+      {
+        "title": "13. OOPs MCQ on Exception Handling & Static Class Members",
+        "subtopics_count": 4,
+        "questions_count": 60
+      },
+      {
+        "title": "14. OOPs MCQ on Assigning Object, Pointer to Objects, Passing and Returning Object",
+        "subtopics_count": 5,
+        "questions_count": 76
+      },
+      {
+        "title": "15. OOPs MCQ on Default Arguments vs Overloading, Upcasting and Downcasting",
+        "subtopics_count": 4,
+        "questions_count": 60
+      },
+      {
+        "title": "16. OOPs MCQ on Memory Allocation & Scope of Variable",
+        "subtopics_count": 4,
+        "questions_count": 60
+      },
+      {
+        "title": "17. Object Oriented Programming MCQ on Inbuilt Classes",
+        "subtopics_count": 3,
+        "questions_count": 45
+      }
+    ]
+  },
+  {
+    "file": "1000 Operating System MCQs.json",
+    "title": "Operating Systems",
+    "icon": "⚙️",
+    "category": "Systems",
+    "description": "Processes, Threads, CPU Scheduling, Deadlocks, Memory Management, and File Systems.",
+    "total_questions": 1121,
+    "total_modules": 17,
+    "modules": [
+      {
+        "title": "1. Processes",
+        "subtopics_count": 7,
+        "questions_count": 73
+      },
+      {
+        "title": "2. Distributed Communication",
+        "subtopics_count": 2,
+        "questions_count": 20
+      },
+      {
+        "title": "3. CPU Scheduling",
+        "subtopics_count": 4,
+        "questions_count": 48
+      },
+      {
+        "title": "4. Process Synchronization",
+        "subtopics_count": 6,
+        "questions_count": 62
+      },
+      {
+        "title": "5. Deadlocks",
+        "subtopics_count": 5,
+        "questions_count": 55
+      },
+      {
+        "title": "6. Memory Management",
+        "subtopics_count": 8,
+        "questions_count": 94
+      },
+      {
+        "title": "7. I/O Systems",
+        "subtopics_count": 3,
+        "questions_count": 35
+      },
+      {
+        "title": "8. Real Time Operating Systems(RTOS)",
+        "subtopics_count": 5,
+        "questions_count": 48
+      },
+      {
+        "title": "9. Multimedia Systems",
+        "subtopics_count": 6,
+        "questions_count": 63
+      },
+      {
+        "title": "10. Security",
+        "subtopics_count": 6,
+        "questions_count": 73
+      },
+      {
+        "title": "11. The Linux System",
+        "subtopics_count": 8,
+        "questions_count": 80
+      },
+      {
+        "title": "12. Virtual Memory",
+        "subtopics_count": 6,
+        "questions_count": 77
+      },
+      {
+        "title": "13. File Systems and their Implementation",
+        "subtopics_count": 15,
+        "questions_count": 154
+      },
+      {
+        "title": "14. Mass-Storage Structures",
+        "subtopics_count": 8,
+        "questions_count": 86
+      },
+      {
+        "title": "15. Protection",
+        "subtopics_count": 5,
+        "questions_count": 61
+      },
+      {
+        "title": "16. Distributed Operating System",
+        "subtopics_count": 4,
+        "questions_count": 40
+      },
+      {
+        "title": "17. Distributed File Systems",
+        "subtopics_count": 5,
+        "questions_count": 52
+      }
+    ]
+  },
+  {
+    "file": "1000 Software Engineering MCQs.json",
+    "title": "Software Engineering",
+    "icon": "🛠️",
+    "category": "Software",
+    "description": "SDLC Models, Requirements Engineering, Software Design, Testing, and Quality Metrics.",
+    "total_questions": 1028,
+    "total_modules": 16,
+    "modules": [
+      {
+        "title": "No Title",
+        "subtopics_count": 3,
+        "questions_count": 30
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 7,
+        "questions_count": 71
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 8,
+        "questions_count": 83
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 2,
+        "questions_count": 16
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 2,
+        "questions_count": 21
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 5,
+        "questions_count": 50
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 6,
+        "questions_count": 60
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 4,
+        "questions_count": 42
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 12,
+        "questions_count": 156
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 6,
+        "questions_count": 63
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 3,
+        "questions_count": 31
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 10,
+        "questions_count": 105
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 10,
+        "questions_count": 105
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 5,
+        "questions_count": 61
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 3,
+        "questions_count": 30
+      },
+      {
+        "title": "No Title",
+        "subtopics_count": 9,
+        "questions_count": 104
+      }
+    ]
+  }
+]

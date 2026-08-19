@@ -1,0 +1,13 @@
+# Node & Dependencies
+node_modules/
+.npm
+.yarn
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Vercel
+.vercel
